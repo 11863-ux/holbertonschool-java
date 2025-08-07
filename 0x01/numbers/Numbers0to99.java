@@ -1,0 +1,13 @@
+package numbers;
+
+public class Numbers0to99 {
+    public static void main(String[] args) {
+        for (int i=0;i<100;i++){
+                System.out.printf(String.valueOf(i));
+                if(i!=99){
+                    System.out.print(", ");
+                }
+        }
+        System.out.print(" ");
+    }
+}
