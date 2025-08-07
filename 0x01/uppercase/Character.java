@@ -1,5 +1,5 @@
 public class Character {
     public static boolean IsUpper(char c){
-        return Character.isUpperCase(c);
+        return(c >= 65 && c <=90);
     }
 }
