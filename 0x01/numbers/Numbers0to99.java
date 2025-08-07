@@ -6,6 +6,5 @@ public class Numbers0to99 {
                     System.out.print(", ");
                 }
         }
-        System.out.print(" ");
     }
 }
