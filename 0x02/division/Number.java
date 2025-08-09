@@ -7,7 +7,7 @@ public class Number {
             result = 0;
             System.out.println("It is not possible to divide by zero.");
         } finally {
-            System.out.println(a + "/" + b + "=" + result);
+            System.out.println(a + " / " + b + " = " + result);
         }
     }
 }
