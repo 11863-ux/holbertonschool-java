@@ -6,7 +6,7 @@ public class Manager extends Employee {
     }
 
     @Override
-    double calculateBonus(Department department) {
+    public double calculateBonus(Department department) {
         double fixedSalaryOfManager = this.getFixedSalary();
         if (department.reachedTarget()) {
             return fixedSalaryOfManager * 20 / 100 + (department.getAchievedTargetValue() - department.getTargetValue()) * 1 / 100;

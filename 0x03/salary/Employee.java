@@ -11,7 +11,7 @@ public class Employee {
         this.fixedSalary = fixedSalary;
     }
 
-    double calculateBonus(Department department) {
+    public double calculateBonus(Department department) {
         if (department.reachedTarget()) {
             return fixedSalary * 10 / 100;
         }
