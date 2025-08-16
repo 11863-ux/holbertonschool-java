@@ -1,5 +1,3 @@
-package salary;
-
 public class Department {
 
     private double targetValue;

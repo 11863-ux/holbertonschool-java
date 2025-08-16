@@ -1,5 +1,3 @@
-package salary;
-
 public class Employee {
     private double fixedSalary;
 
