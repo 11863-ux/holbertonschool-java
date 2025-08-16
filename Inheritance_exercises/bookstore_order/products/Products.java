@@ -1,5 +1,3 @@
-package bookstore_order.products;
-
 public abstract class Products {
     String title;
     int year;
