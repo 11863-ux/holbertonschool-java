@@ -1,6 +1,6 @@
 public class Program {
     public static void main(String[] args) {
-        CharacterGame personagem1 = new CharacterGame(50, "Sonic");
+        CharacterGame character1 = new CharacterGame(50, "Sonic");
 
         character1.setName("");
 
