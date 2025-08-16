@@ -3,7 +3,7 @@ public abstract class Products {
     int year;
     String country;
     double grossPrice;
-    Products(String title, int year, String country, double grossPrice){
+    public Products(String title, int year, String country, double grossPrice){
         this.title = title;
         this.year = year;
         this.country = country;
