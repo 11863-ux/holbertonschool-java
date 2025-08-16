@@ -10,8 +10,8 @@ public class Square extends Rectangle{
             throw new IllegalArgumentException("Side must be greater than or equal to 0");
         }
         this.side = side;
-        setWidth(width);
-        setHeight(height);
+        this.width = side;
+        this.height = side;
     }
 
     public String toString(){
