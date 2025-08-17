@@ -1,20 +1,15 @@
-package bookstore_order;
-
-import bookstore_order.products.Book;
-import bookstore_order.products.Dvd;
-
 public class Program {
     public static void main(String[] args) {
-        Book book1 = new Book("Dune", 2017, "United States", 56.30, 680, "Frank Herbert", 1);
-        Book book2 = new Book("One of Us Is Lying", 2018, "United States", 34.93, 384,
+        products.Book book1 = new products.Book("Dune", 2017, "United States", 56.30, 680, "Frank Herbert", 1);
+        products.Book book2 = new products.Book("One of Us Is Lying", 2018, "United States", 34.93, 384,
                 "Karen McManus", 1);
-        Book book3 = new Book("War And Peace", 1869, "United States", 31.70, 272,
+        products.Book book3 = new products.Book("War And Peace", 1869, "United States", 31.70, 272,
                 "Leo Tolstoy", 1);
 
-        Dvd dvd1 = new Dvd("Underworld - Blood Wars", 2016, "United States", 16.90,
+        products.Dvd dvd1 = new products.Dvd("Underworld - Blood Wars", 2016, "United States", 16.90,
                 "Anna Foerster",
                 "Action", 91);
-        Dvd dvd2 = new Dvd("Annabelle - Creation", 2017, "United States", 39.90,
+        products.Dvd dvd2 = new products.Dvd("Annabelle - Creation", 2017, "United States", 39.90,
                 "Jame Wan and Peter Safran",
                 "Horror",
                 109);
