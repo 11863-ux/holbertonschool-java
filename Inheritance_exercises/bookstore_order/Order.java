@@ -1,7 +1,3 @@
-package bookstore_order;
-
-import java.util.Arrays;
-
 public class Order {
     double discountPercentage;
     ItemOrder[] items;
@@ -13,10 +9,10 @@ public class Order {
 
 
     public double  calculateTotal(){
-        double total = 0;
+        double total = 0d;
         for (ItemOrder item : items){
             total += item.quantity*item.product.getNetPrice();
         }
-        return total-total*discountPercentage/100;
+        return Math.floor((total-total*discountPercentage/100d)*100)/100.0;
     }
 }
