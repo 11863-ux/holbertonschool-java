@@ -1,7 +1,4 @@
-package special_account;
-
-
-import special_account.exceptions.InvalidOperationException;
+import exceptions.InvalidOperationException;
 
 public class FeeBasedBankAccount extends BasicBankAccount {
 
@@ -11,7 +8,7 @@ public class FeeBasedBankAccount extends BasicBankAccount {
     }
 
     @Override
-    public void withdraw(double value) throws basic_account.exceptions.InvalidOperationException {
+    public void withdraw(double value) throws InvalidOperationException {
             super.withdraw(value);
             double balanceAfterWithdraw=getBalance()-0.10;
             setBalance(balanceAfterWithdraw);
@@ -22,7 +19,7 @@ public class FeeBasedBankAccount extends BasicBankAccount {
     }
 
     @Override
-    public void deposit(double value) throws basic_account.exceptions.InvalidOperationException {
+    public void deposit(double value) throws InvalidOperationException {
             super.deposit(value);
             double balanceAfterDeposit=getBalance()-0.10;
             setBalance(balanceAfterDeposit);
