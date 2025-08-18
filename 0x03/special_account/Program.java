@@ -34,7 +34,7 @@ public class Program {
             account3.withdraw(106);
             System.out.println(String.format("Account %s - balance: %.2f", account3.getAccountNumber(), account3.getBalance()).replace('.', ','));
             account3.applyMonthlyUpdate();
-            System.out.println(String.format("Account %s - balance: %.2f", account3.getAccountNumber(), account3.getBalance()).replace('.', ','));
+            System.out.print(String.format("Account %s - balance: %.2f", account3.getAccountNumber(), account3.getBalance()).replace('.', ','));
         } catch (Exception ex) {
             System.out.println(ex.getMessage() + "\n");
         }
