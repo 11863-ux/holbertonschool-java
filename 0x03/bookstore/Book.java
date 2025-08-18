@@ -1,3 +1,6 @@
+import bookstore.exceptions.InvalidAuthorException;
+import bookstore.exceptions.InvalidBookException;
+
 public class Book {
     private String title;
     private String author;
