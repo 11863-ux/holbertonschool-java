@@ -1,7 +1,3 @@
-package bookstore;
-
-import bookstore.exceptions.InvalidBookException;
-
 public class GoldEditionBook extends Book{
     GoldEditionBook(String title, String author, double price) {
         super(title, author, price);
