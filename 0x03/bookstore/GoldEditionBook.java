@@ -1,4 +1,4 @@
-import bookstore.exceptions.InvalidBookException;
+import exceptions.InvalidBookException;
 
 public class GoldEditionBook extends Book{
     GoldEditionBook(String title, String author, double price) {

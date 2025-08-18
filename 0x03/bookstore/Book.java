@@ -1,5 +1,5 @@
-import bookstore.exceptions.InvalidAuthorException;
-import bookstore.exceptions.InvalidBookException;
+import exceptions.InvalidAuthorException;
+import exceptions.InvalidBookException;
 
 public class Book {
     private String title;
