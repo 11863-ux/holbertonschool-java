@@ -1,5 +1,3 @@
-package basic_account;
-
 import exceptions.InvalidOperationException;
 
 public class BasicBankAccount {
