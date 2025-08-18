@@ -30,9 +30,9 @@ public class BasicBankAccount {
 
     void withdraw(double value) throws InvalidOperationException {
         if (value < 0) {
-            throw new InvalidOperationException("Withdrawal amount must be greater than 0");
+            throw new InvalidOperationException("Withdrawal amount must be less than the current balance");
         } else if (value > balance) {
-            throw new InvalidOperationException("Withdrawal amount must be less than balance");
+            throw new InvalidOperationException("Withdrawal amount must be less than the current balance");
         } else balance -= value;
     }
 
