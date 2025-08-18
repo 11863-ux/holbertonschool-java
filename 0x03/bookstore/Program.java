@@ -1,3 +1,5 @@
+package bookstore;
+
 public class Program {
     public static void main(String[] args) {
 
@@ -33,7 +35,7 @@ public class Program {
         try {
             GoldEditionBook goldEditionBook2 = new GoldEditionBook(
                     "Alice’s Adventures in Wonderland",
-                    "Lewis Carroll",
+                    "Lewis",
                     21.88);
 
             System.out.print(String.format("Title: %s - Author: %s - Price: %.2f\n",
@@ -46,7 +48,7 @@ public class Program {
 
         try {
             Book book2 = new Book(
-                    "Dracula",
+                    "Dr",
                     "Bram Stoker",
                     15.99);
 
