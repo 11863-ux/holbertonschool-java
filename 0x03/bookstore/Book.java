@@ -1,3 +1,6 @@
+import bookstore.exceptions.InvalidAuthorException;
+import bookstore.exceptions.InvalidBookException;
+
 public class Book {
     private String title;
     private String author;
@@ -15,7 +18,7 @@ public class Book {
         return title;
     }
 
-    public String getAuthor() throws InvalidAuthorException{
+    public String getAuthor() throws InvalidAuthorException {
         String[] words = author.split(" ");
         if(words.length <=1) {
             throw new InvalidAuthorException("Invalid author name");
