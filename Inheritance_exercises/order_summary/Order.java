@@ -1,6 +1,3 @@
-package order_summary;
-
-
 import java.util.Arrays;
 
 public class Order {
@@ -18,27 +15,24 @@ public class Order {
         for (ItemOrder item : items) {
             total += item.quantity * item.product.getNetPrice();
         }
-        return total - total * discountPercentage / 100;
+        return total;
     }
 
     public void presentOrderSummary() {
         System.out.println("------- ORDER SUMMARY -------");
         Arrays.stream(items).forEach(item -> {
             ItemOrder listItem=items[items.length-1];
-            System.out.printf("Type: %s  Title: %s  Price: %.2f  Quant: %d  Total: %.2f", item.product.getClass().getSimpleName(), item.product.title, item.product.getNetPrice(), item.quantity, item.product.getNetPrice()*item.quantity);
+            System.out.print(String.format("Type: %s  Title: %s  Price: %.2f  Quant: %d  Total: %.2f", item.product.getClass().getSimpleName(), item.product.title, item.product.getNetPrice(), item.quantity, item.product.getNetPrice()*item.quantity).replace(".",","));
             if(item!=listItem){
                 System.out.println();
             }
         });
         System.out.println();
         System.out.println("----------------------------");
-        System.out.printf("DISCOUNT: %.2f", calculateTotal()*discountPercentage/100);
-        System.out.println();
-        System.out.printf("TOTAL PRODUCTS: %.2f", calculateTotal());
-        System.out.println();
+        System.out.print(String.format("DISCOUNT: %.2f\n", calculateTotal()*discountPercentage/100d).replace(".",","));
+        System.out.print(String.format("TOTAL PRODUCTS: %.2f\n", calculateTotal()).replace(".",","));
         System.out.println("----------------------------");
-        System.out.printf("TOTAL ORDER: %.2f", calculateTotal()-calculateTotal()*discountPercentage/100);
-        System.out.println();
+        System.out.print(String.format("TOTAL ORDER: %.2f\n", calculateTotal()-calculateTotal()*discountPercentage/100).replace(".",","));
         System.out.println("----------------------------");
     }
 }

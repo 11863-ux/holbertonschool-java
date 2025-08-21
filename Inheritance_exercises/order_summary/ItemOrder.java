@@ -1,6 +1,4 @@
-package order_summary;
-
-import order_summary.products.Products;
+import products.Products;
 
 public class ItemOrder {
     Products product;

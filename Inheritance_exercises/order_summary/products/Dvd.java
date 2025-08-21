@@ -1,4 +1,4 @@
-package order_summary.products;
+package products;
 
 public class Dvd extends Products {
     public Dvd(String title, int year, String country, double grossPrice, String director, String genre, int duration){
@@ -6,6 +6,6 @@ public class Dvd extends Products {
     }
     @Override
     public double getNetPrice() {
-        return grossPrice+grossPrice*20/100;
+        return grossPrice+grossPrice/100d*20d;
     }
 }

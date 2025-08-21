@@ -1,7 +1,5 @@
-package order_summary;
-
-import order_summary.products.Book;
-import order_summary.products.Dvd;
+import products.Book;
+import products.Dvd;
 
 public class Program {
     public static void main(String[] args) {
