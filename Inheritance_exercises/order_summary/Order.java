@@ -22,7 +22,7 @@ public class Order {
         System.out.println("------- ORDER SUMMARY -------");
         Arrays.stream(items).forEach(item -> {
             ItemOrder listItem=items[items.length-1];
-            System.out.print(String.format("Type: %s  Title:%s  Price: %.2f  Quant: %d  Total: %.2f", item.product.getClass().getSimpleName(), item.product.title, item.product.getNetPrice(), item.quantity, item.product.getNetPrice()*item.quantity).replace(".",","));
+            System.out.print(String.format("Type: %s  Title: %s  Price: %.2f  Quant: %d  Total: %.2f", item.product.getClass().getSimpleName(), item.product.title, item.product.getNetPrice(), item.quantity, item.product.getNetPrice()*item.quantity).replace(".",","));
             if(item!=listItem){
                 System.out.println();
             }
