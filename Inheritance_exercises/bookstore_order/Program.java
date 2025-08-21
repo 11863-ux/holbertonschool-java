@@ -1,3 +1,8 @@
+package bookstore_order;
+
+import bookstore_order.products.Book;
+import bookstore_order.products.Dvd;
+
 public class Program {
     public static void main(String[] args) {
         Book book1 = new Book("Dune", 2017, "United States", 56.30, 680, "Frank Herbert", 1);
