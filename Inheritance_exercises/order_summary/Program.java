@@ -36,8 +36,8 @@ public class Program {
         Order order2 = new Order(10, itemsOrder2);
 
         order2.presentOrderSummary();
-        System.out.println("----------------------------");
         System.out.println("TOTAL PEDIDO: 101,36");
+        System.out.println("----------------------------");
 
         // Order 3
         ItemOrder[] itemsOrder3 = new ItemOrder[] {
