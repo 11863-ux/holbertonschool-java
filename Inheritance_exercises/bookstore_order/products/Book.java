@@ -4,6 +4,6 @@ public class Book extends Products {
     }
     @Override
     public double getNetPrice() {
-        return grossPrice+grossPrice*15/100;
+        return grossPrice+grossPrice*15d/100d;
     }
 }
