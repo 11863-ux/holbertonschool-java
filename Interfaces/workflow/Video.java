@@ -1,5 +1,3 @@
-package workflow;
-
 public class Video {
     String file;
     FormatVideo format;

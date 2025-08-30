@@ -1,4 +1,3 @@
-package workflow;
 public class VideoProcessor {
     List<NotificationChannel> channels= new ArrayList<>();
 
