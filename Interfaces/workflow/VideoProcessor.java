@@ -12,7 +12,7 @@ public class VideoProcessor {
         for (NotificationChannel channel : channels) {
             Message msg = new Message();
             msg.messageType=MessageType.LOG;
-            msg.text=String.format("[%s] - %s",video.file,video.format);
+            msg.text=String.format("%s - %s",video.file,video.format);
             channel.notify(msg);
         }
     }
