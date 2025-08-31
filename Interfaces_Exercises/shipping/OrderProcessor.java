@@ -1,4 +1,4 @@
-package providers.shipping;
+import providers.ShippingProvider;
 
 public class OrderProcessor {
     ShippingProvider shippingProvider;

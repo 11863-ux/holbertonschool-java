@@ -1,4 +1,4 @@
-package prviders.shipping;
+import prviders.Shipping;
 
 public class Order {
     int code;
