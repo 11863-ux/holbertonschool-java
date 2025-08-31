@@ -1,4 +1,5 @@
 import providers.ShippingProvider;
+import providers.Shipping;
 
 public class OrderProcessor {
     ShippingProvider shippingProvider;
