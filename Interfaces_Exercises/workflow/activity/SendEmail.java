@@ -1,3 +1,4 @@
+package activity;
 public class SendEmail implements Activity {
     @Override
     public void execute() {

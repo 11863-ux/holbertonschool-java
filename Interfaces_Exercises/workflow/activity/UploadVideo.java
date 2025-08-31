@@ -1,3 +1,4 @@
+package activity;
 public class UploadVideo implements Activity{
     @Override
     public void execute() {

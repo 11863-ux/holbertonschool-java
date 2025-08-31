@@ -1,3 +1,4 @@
+package activity;
 public class ModifyVideoStatus implements Activity {
     @Override
     public void execute() {
