@@ -1,4 +1,4 @@
-import prviders.Shipping;
+import providers.Shipping;
 
 public class Order {
     int code;
