@@ -35,6 +35,10 @@ public class Character {
 
     @Override
     public String toString() {
-        return String.format("%d - %s",happinessPoints,getCurrentMood().getClass().getSimpleName());
+        if(getCurrentMood().getClass().getSimpleName().equals("VeryHappy")){
+            return String.format("%d - Very Happy",happinessPoints);
+        }else{
+            return String.format("%d - %s",happinessPoints,getCurrentMood().getClass().getSimpleName());
+        }
     }
 }
