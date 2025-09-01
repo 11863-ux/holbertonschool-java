@@ -1,3 +1,5 @@
+package positive_integer;
+
 public class Program {
     public static void main(String[] args) {
         try {
