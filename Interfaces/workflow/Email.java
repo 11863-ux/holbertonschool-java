@@ -1,3 +1,5 @@
+package workflow;
+
 public class Email implements NotificationChannel {
     @Override
     public void notify(Message message) {

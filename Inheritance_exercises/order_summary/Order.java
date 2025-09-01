@@ -1,3 +1,5 @@
+package order_summary;
+
 import java.util.Arrays;
 
 public class Order {

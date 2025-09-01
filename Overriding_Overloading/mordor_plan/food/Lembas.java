@@ -1,4 +1,4 @@
-package food;
+package mordor_plan.food;
 
 public class Lembas extends Food {
     public Lembas() {

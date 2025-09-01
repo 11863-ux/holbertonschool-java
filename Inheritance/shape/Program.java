@@ -1,3 +1,5 @@
+package shape;
+
 public class Program {
     public static void main(String[] args) {
         GeometricShape geometricShape = new GeometricShape();

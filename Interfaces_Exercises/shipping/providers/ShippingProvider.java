@@ -1,4 +1,4 @@
-package providers;
+package shipping.providers;
 
 public interface ShippingProvider {
    Shipping calculateShipping(double weight, double value);

@@ -1,3 +1,5 @@
+package abstract2;
+
 import java.lang.reflect.Modifier;
 
 public class Program {

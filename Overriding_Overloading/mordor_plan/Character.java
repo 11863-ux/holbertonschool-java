@@ -1,9 +1,7 @@
-import food.Food;
-import mood.Angry;
-import mood.Happy;
-import mood.Mood;
-import mood.Sad;
-import mood.VeryHappy;
+package mordor_plan;
+
+import mordor_plan.food.Food;
+import mordor_plan.mood.*;
 
 public class Character {
     int happinessPoints;

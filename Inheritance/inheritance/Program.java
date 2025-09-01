@@ -1,3 +1,5 @@
+package inheritance;
+
 public class Program {
     public static void main(String[] args) {
         Animal myAnimal = new Animal();

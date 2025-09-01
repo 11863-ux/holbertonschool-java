@@ -1,3 +1,5 @@
+package square;
+
 public class Rectangle extends GeometricShape {
     protected double width;
     protected double height;

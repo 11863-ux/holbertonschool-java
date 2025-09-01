@@ -1,3 +1,5 @@
+package square;
+
 public class Square extends Rectangle{
     private double side;
 

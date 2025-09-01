@@ -1,4 +1,4 @@
-package products;
+package bookstore_order.products;
 
 public class Book extends Products {
     public Book(String title, int year, String country, double grossPrice, int pages, String author, int edition){

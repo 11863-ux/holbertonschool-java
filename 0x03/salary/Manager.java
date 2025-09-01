@@ -1,3 +1,5 @@
+package salary;
+
 public class Manager extends Employee {
     Manager(double fixedSalary) {
         super(fixedSalary);

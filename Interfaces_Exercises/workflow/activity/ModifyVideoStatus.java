@@ -1,4 +1,5 @@
-package activity;
+package workflow.activity;
+
 public class ModifyVideoStatus implements Activity {
     @Override
     public void execute() {

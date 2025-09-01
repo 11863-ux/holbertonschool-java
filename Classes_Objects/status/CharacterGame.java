@@ -1,3 +1,5 @@
+package status;
+
 public class CharacterGame {
     private int currentHealth;
     private String name;

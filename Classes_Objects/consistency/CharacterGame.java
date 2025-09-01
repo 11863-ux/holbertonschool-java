@@ -1,3 +1,5 @@
+package consistency;
+
 public class CharacterGame {
     private int currentHealth;
     private String name;

@@ -1,4 +1,6 @@
-import exceptions.InvalidOperationException;
+package basic_account;
+
+import basic_account.exceptions.InvalidOperationException;
 
 public class BasicBankAccount {
     private String accountNumber;

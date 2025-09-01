@@ -1,4 +1,4 @@
-package products;
+package order_summary.products;
 
 public class Dvd extends Products {
     public Dvd(String title, int year, String country, double grossPrice, String director, String genre, int duration){

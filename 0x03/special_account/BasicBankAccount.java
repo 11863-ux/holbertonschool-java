@@ -1,3 +1,5 @@
+package special_account;
+
 import exceptions.InvalidOperationException;
 
 public class BasicBankAccount {

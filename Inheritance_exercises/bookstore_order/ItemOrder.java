@@ -1,4 +1,6 @@
-import products.Products;
+package bookstore_order;
+
+import bookstore_order.products.Products;
 
 public class ItemOrder {
     Products product;

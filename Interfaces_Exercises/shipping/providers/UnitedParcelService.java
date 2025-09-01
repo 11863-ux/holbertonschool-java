@@ -1,4 +1,4 @@
-package providers;
+package shipping.providers;
 
 public class UnitedParcelService implements ShippingProvider{
     @Override

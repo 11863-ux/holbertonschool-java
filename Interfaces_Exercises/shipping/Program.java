@@ -1,4 +1,8 @@
-import providers.*;
+package shipping;
+
+import shipping.providers.DalseyHillblomLynn;
+import shipping.providers.Fedex;
+import shipping.providers.UnitedParcelService;
 
 public class Program {
     public static void main(String[] args) {
