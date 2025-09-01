@@ -1,3 +1,5 @@
+package bookstore;
+
 import exceptions.InvalidBookException;
 
 public class GoldEditionBook extends Book{
