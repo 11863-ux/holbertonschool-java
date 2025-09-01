@@ -25,6 +25,14 @@ public class PositiveInteger {
 
     }
 
+    public void setValor(int value) {
+        if(value < 0) {
+            throw new IllegalArgumentException("Value is not a positive integer");
+        }
+        this.value = value;
+
+    }
+
     public boolean isPrime(){
         if(value <=1){
             return false;
