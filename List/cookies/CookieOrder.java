@@ -1,3 +1,5 @@
+package cookies;
+
 public class CookieOrder {
     String flavor;
     int boxQuantity;
