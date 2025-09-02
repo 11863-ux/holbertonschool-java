@@ -1,5 +1,3 @@
-package numbers;
-
 import java.util.List;
 
 public class ManipulateArrayNumbers {
