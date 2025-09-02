@@ -6,7 +6,7 @@ public class Task {
     int identifier;
 
     Task(String description, int identifier) {
-        this.description = description;
+        modifyDescription(description);
         this.identifier = identifier;
     }
 
