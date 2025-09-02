@@ -11,6 +11,10 @@ public class TodoList {
         this.tasks = new ArrayList<Task>();
     }
 
+    TodoList(List<Task> tasks){
+        tasks=new ArrayList<Task>();
+    }
+
     public void addTask(Task task) {
         task.modifyDescription(task.description);
         for (Task t : this.tasks) {
