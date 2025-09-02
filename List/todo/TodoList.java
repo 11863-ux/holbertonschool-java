@@ -13,7 +13,7 @@ public class TodoList {
         task.modifyDescription(task.description);
         for (Task t : this.tasks) {
             if (t.identifier == task.identifier) {
-                throw new IllegalArgumentException("Task with identifier <identifier> already exists in the list");
+                throw new IllegalArgumentException("Task with identifier %d already exists in the list",task.identifier);
             }
         }
         tasks.add(task);
