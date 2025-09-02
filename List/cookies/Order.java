@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class Order {
-    List<CookieOrder> cookies;
+    ArrayList<CookieOrder> cookies;
 
     Order() {
         this.cookies = new ArrayList<>();
