@@ -1,3 +1,5 @@
+package todo;
+
 public class Program {
     public static void main(String[] args) {
         TodoList todo = new TodoList();
