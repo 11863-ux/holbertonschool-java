@@ -13,11 +13,11 @@ public class Order {
     }
 
     public int getTotalBoxes(){
-        AtomicInteger totalBoxes= new AtomicInteger();
-        cookies.forEach(cookie -> {
-            totalBoxes.addAndGet(cookie.getBoxQuantity());
-        });
-        return totalBoxes.get();
+        int count=0;
+        for (CookieOrder order : cookies) {
+            count += order.getBoxQuantity();
+        }
+        return count;
     }
 
     public int removeFlavor(String flavor){
