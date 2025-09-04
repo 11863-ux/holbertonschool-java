@@ -74,7 +74,7 @@ public class Program {
         System.out.println("-----");
 
         try {
-            mobile.removeContact(new Contact("Jane", "32214333", NumberType.HOME));
+            mobile.updateContact(new Contact("John", "32214333", NumberType.HOME),new Contact("John Bannons", "32214333", NumberType.HOME));
             mobile.listContacts();
         } catch(Exception ex) {
             System.out.println(ex.getMessage());
