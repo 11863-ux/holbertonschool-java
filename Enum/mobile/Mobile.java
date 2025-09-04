@@ -1,5 +1,3 @@
-package mobile;
-
 import java.util.ArrayList;
 
 public class Mobile {
