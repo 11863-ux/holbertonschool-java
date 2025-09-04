@@ -1,3 +1,5 @@
+package mobile;
+
 public class Contact {
     String name;
     String phone;
