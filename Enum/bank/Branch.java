@@ -29,7 +29,13 @@ public class Branch {
     }
 
     public boolean addCustomerTransaction(String customerName, double transaction){
-
+        for(Customer customer : customers){
+            if(customer.name.equals(customerName)){
+                customer.getTransactions().add(transaction);
+                return true;
+            }
+        }
+        return false;
     }
 
     public Customer findCustomer(String customerName){
