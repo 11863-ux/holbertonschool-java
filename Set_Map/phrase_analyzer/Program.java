@@ -1,3 +1,5 @@
+package phrase_analyzer;
+
 import java.util.TreeMap;
 
 public class Program {
