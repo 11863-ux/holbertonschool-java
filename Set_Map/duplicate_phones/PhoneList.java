@@ -1,6 +1,5 @@
 package duplicate_phones;
 
-import phones.Phone;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -22,9 +21,16 @@ public class PhoneList {
             if(phones.contains(phone)){
                 throw  new RuntimeException("Phone already exists for this person");
             }
-            else peoplePhones.get(name).add(phone);
+            else {
+                peoplePhones.get(name).add(phone);
+                return phones;
+            }
         }
-        else peoplePhones.put(name,new HashSet<>(List.of(phone)));
+        else {
+            peoplePhones.put(name,new HashSet<>(List.of(phone)));
+            return peoplePhones.get(name);
+        }
+
 
     }
 
