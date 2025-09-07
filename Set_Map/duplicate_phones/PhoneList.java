@@ -21,9 +21,10 @@ public class PhoneList {
             HashSet<Phone> phones = peoplePhones.get(name);
             if(phones.contains(phone)){
                 throw  new RuntimeException("Phone already exists for this person");
-            }else peoplePhones.get(name).add(phone);
-        }else peoplePhones.put(name,new HashSet<>(List.of(phone)));
-
+            }
+            else peoplePhones.get(name).add(phone);
+        }
+        else peoplePhones.put(name,new HashSet<>(List.of(phone)));
 
     }
 
