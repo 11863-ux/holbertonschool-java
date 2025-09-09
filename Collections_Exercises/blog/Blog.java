@@ -22,7 +22,7 @@ public class Blog {
         for(Post post:posts){
             categories.add(post.category);
         }
-        Map<String,Integer> countByCategory=new TreeMap<>(Comparator.reverseOrder());
+        Map<String,Integer> countByCategory=new TreeMap<>();
         for(String category:categories){
             int count=0;
             for(Post post:posts){
