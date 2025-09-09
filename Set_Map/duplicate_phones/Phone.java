@@ -1,4 +1,4 @@
-package duplicate_phones;
+import java.util.Objects;
 
 public class Phone {
     String areaCode;
@@ -14,4 +14,16 @@ public class Phone {
         return String.format("(%s) %s", areaCode, number);
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if(obj == null) return false;
+        if(getClass() != obj.getClass()) return false;
+        if(this == obj) return true;
+        return Objects.equals(this.areaCode, ((Phone) obj).areaCode) && Objects.equals(this.number, ((Phone) obj).number);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(areaCode, number);
+    }
 }

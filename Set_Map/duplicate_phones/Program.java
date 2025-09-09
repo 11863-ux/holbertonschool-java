@@ -1,5 +1,3 @@
-package duplicate_phones;
-
 import java.util.Set;
 
 public class Program {

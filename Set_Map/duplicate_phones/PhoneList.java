@@ -1,7 +1,3 @@
-package duplicate_phones;
-
-
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
@@ -20,8 +16,10 @@ public class PhoneList {
             HashSet<Phone> phones = peoplePhones.get(name);
             if(phones.contains(phone)){
                 throw  new RuntimeException("Phone already exists for this person");
-            }
-            else {
+            } else if (checkHasAnyUserHaveThisPhone(phone)) {
+                throw new RuntimeException("Phone already belongs to another person");
+
+            } else {
                 peoplePhones.get(name).add(phone);
                 return phones;
             }
@@ -32,6 +30,15 @@ public class PhoneList {
         }
 
 
+    }
+
+    public boolean checkHasAnyUserHaveThisPhone(Phone phone) {
+        for (HashSet<Phone> phones: peoplePhones.values()) {
+            if (phones.contains(phone)) {
+                return true;
+            }
+        }
+        return false;
     }
 
     public HashSet<Phone> isFind(String name){
