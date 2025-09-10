@@ -1,3 +1,5 @@
+package blog_posts;
+
 public class Post implements Comparable<Post>{
     Author author;
     String title;
