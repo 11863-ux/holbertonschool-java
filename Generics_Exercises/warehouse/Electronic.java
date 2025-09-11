@@ -1,3 +1,5 @@
+package warehouse;
+
 public class Electronic extends Item {
     String description;
     double value;
