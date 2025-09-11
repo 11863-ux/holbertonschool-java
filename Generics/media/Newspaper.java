@@ -1,3 +1,5 @@
+package media;
+
 public class Newspaper extends Media{
     int articleCount;
 

@@ -1,3 +1,5 @@
+package media;
+
 public class Media {
     String name;
 

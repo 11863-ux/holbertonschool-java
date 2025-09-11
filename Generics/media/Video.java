@@ -1,3 +1,5 @@
+package media;
+
 public class Video extends Media{
     int duration;
 
