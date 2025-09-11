@@ -11,6 +11,6 @@ public class Food extends Item {
 
     @Override
     public String toString() {
-        return String.format("[%s] %.5f $ %.5f",name,calories,price).replace(".",",");
+        return String.format("[%s] %.5f $ %f",name,calories,price).replace(".",",");
     }
 }
