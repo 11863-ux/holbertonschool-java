@@ -1,3 +1,5 @@
+package specific_warehouse;
+
 public interface Storable<T> {
 
 
