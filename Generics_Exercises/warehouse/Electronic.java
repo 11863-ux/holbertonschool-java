@@ -9,6 +9,6 @@ public class Electronic extends Item {
 
     @Override
     public String toString() {
-        return String.format("[%s] $ %.5f",description,value);
+        return String.format("[%s] $ %.5f",description,value).replace(".",",");
     }
 }
