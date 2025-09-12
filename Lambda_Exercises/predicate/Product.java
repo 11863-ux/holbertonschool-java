@@ -1,3 +1,6 @@
+import java.text.DecimalFormat;
+import java.text.DecimalFormatSymbols;
+
 public class Product {
 
     String name;
@@ -36,8 +39,22 @@ public class Product {
         this.stockQuantity = stockQuantity;
     }
 
+    private static final DecimalFormatSymbols symbols = new DecimalFormatSymbols();
+    private static final DecimalFormat df;
+
+    static {
+        symbols.setDecimalSeparator(',');
+        df = new DecimalFormat("0.000000", symbols);
+    }
+
+    // constructor və getter-lər...
+
     @Override
     public String toString() {
-        return String.format("%s %f %f %d %s",name,price,weight,stockQuantity,type);
+        return name + " "
+                + df.format(price) + " "
+                + df.format(weight) + " "
+                + stockQuantity + " "
+                + type;
     }
 }
