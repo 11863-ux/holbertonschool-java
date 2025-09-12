@@ -24,6 +24,6 @@ public class Product {
     }
 
     Supplier<Double> priceWithMarkup= ()-> price+price*markupPercentage/100;
-    Consumer<Double> updateMarkup=(Double value) -> markupPercentage-=value;
+    Consumer<Double> updateMarkup=(Double value) -> markupPercentage=value;
 
 }
