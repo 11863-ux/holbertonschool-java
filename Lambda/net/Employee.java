@@ -1,3 +1,5 @@
+package net;
+
 public class Employee {
     double salary;
 
