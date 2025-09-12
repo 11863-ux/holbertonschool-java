@@ -1,3 +1,5 @@
+package predicate;
+
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
 
