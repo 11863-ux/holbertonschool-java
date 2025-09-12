@@ -1,3 +1,5 @@
+package search_products;
+
 import java.util.ArrayList;
 import java.util.List;
 

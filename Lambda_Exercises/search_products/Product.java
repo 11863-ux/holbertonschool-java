@@ -1,3 +1,5 @@
+package search_products;
+
 public class Product {
 
     String name;
