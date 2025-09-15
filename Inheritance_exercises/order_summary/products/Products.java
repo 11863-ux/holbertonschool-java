@@ -1,4 +1,4 @@
-package order_summary.products;
+package products;
 
 public abstract class Products {
     public String title;
