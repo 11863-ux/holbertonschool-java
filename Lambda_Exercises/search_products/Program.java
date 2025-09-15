@@ -1,5 +1,3 @@
-package search_products;
-
 import java.util.Arrays;
 import java.util.List;
 
