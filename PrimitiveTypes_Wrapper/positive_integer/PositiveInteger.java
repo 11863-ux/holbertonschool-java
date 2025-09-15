@@ -1,5 +1,3 @@
-package positive_integer;
-
 public class PositiveInteger {
     private int value;
 
