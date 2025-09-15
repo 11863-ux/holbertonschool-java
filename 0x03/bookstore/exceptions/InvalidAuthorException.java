@@ -1,4 +1,4 @@
-package bookstore.exceptions;
+package exceptions;
 
 public class InvalidAuthorException extends Exception {
 

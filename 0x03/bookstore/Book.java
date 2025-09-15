@@ -1,5 +1,3 @@
-package bookstore;
-
 import exceptions.InvalidAuthorException;
 import exceptions.InvalidBookException;
 
