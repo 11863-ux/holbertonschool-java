@@ -1,5 +1,3 @@
-package numbers;
-
 import java.util.*;
 
 public class Program {
