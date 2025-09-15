@@ -1,5 +1,3 @@
-package specific_warehouse;
-
 public class Electronic extends Item {
     String description;
     double value;

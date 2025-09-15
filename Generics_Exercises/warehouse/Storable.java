@@ -1,5 +1,3 @@
-package warehouse;
-
 public interface Storable<T> {
 
 

@@ -1,5 +1,3 @@
-package specific_warehouse;
-
 public class Program {
     public static void main(String[] args) {
         Food food1 = new Food("rice", 100, 15.9);

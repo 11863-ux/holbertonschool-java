@@ -1,5 +1,3 @@
-package specific_warehouse;
-
 public class Food extends Item {
     String name;
     double calories;
