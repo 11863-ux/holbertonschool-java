@@ -1,5 +1,3 @@
-package net;
-
 public class Program {
     public static void main(String[] args) {
         Employee employee1 = new Employee(2360);

@@ -1,5 +1,3 @@
-package markup;
-
 public class Program {
     public static void main(String[] args) {
         Product product1 = new Product(129.99, "Mouse Gamer");
