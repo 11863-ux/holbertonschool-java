@@ -1,5 +1,3 @@
-package phones;
-
 public class Phone {
     String areaCode;
     String number;
