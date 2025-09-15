@@ -1,7 +1,5 @@
-package mordor_plan;
-
-import mordor_plan.food.Food;
-import mordor_plan.mood.*;
+import food.Food;
+import mood.*;
 
 public class Character {
     int happinessPoints;

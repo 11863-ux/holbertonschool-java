@@ -1,6 +1,4 @@
-package mordor_plan;
-
-import mordor_plan.food.*;
+import food.*;
 
 public class Program {
     public static void main(String[] args) {
