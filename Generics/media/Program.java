@@ -1,5 +1,3 @@
-package media;
-
 public class Program {
     public static void main(String[] args) {
         Book book1 = new Book("The Great Gatsby", 1);

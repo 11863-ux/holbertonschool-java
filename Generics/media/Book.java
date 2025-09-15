@@ -1,5 +1,3 @@
-package media;
-
 public class Book extends Media{
     int edition;
 
