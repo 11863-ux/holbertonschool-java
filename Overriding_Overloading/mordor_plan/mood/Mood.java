@@ -1,4 +1,4 @@
-package mordor_plan.mood;
+package mood;
 
 public abstract class Mood {
 }
