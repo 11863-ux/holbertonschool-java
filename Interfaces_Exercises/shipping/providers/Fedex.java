@@ -1,4 +1,4 @@
-package shipping.providers;
+package providers;
 
 public class Fedex implements ShippingProvider{
     @Override

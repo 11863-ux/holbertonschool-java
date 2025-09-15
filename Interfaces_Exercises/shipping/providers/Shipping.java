@@ -1,4 +1,4 @@
-package shipping.providers;
+package providers;
 
 public class Shipping {
     double value;

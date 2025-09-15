@@ -1,6 +1,4 @@
-package shipping;
-
-import shipping.providers.Shipping;
+import providers.Shipping;
 
 public class Order {
     int code;
