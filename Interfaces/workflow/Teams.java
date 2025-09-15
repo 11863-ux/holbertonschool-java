@@ -1,5 +1,3 @@
-package workflow;
-
 public class Teams implements NotificationChannel {
     @Override
     public void notify(Message message) {

@@ -1,5 +1,3 @@
-package workflow;
-
 public class Slack implements NotificationChannel {
     @Override
     public void notify(Message message) {
