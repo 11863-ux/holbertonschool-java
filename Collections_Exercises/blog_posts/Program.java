@@ -1,5 +1,3 @@
-package blog_posts;
-
 import java.util.Map;
 import java.util.Set;
 

@@ -1,5 +1,3 @@
-package blog;
-
 import java.util.*;
 
 public class Blog {
