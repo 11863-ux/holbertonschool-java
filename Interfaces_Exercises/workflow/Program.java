@@ -1,9 +1,7 @@
-package workflow;
-
-import workflow.activity.EncodeVideo;
-import workflow.activity.ModifyVideoStatus;
-import workflow.activity.SendEmail;
-import workflow.activity.UploadVideo;
+import activity.EncodeVideo;
+import activity.ModifyVideoStatus;
+import activity.SendEmail;
+import activity.UploadVideo;
 
 public class Program {
     public static void main(String[] args) {
