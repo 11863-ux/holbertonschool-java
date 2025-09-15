@@ -1,5 +1,3 @@
-package blog_posts;
-
 import java.util.Objects;
 
 public class Author implements Comparable<Author> {
