@@ -1,5 +1,3 @@
-package special_account;
-
 public class ControlledBankAccount extends BasicBankAccount {
 
     private double minimumBalance;
