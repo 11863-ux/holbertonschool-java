@@ -1,4 +1,4 @@
-import basic_account.exceptions.InvalidOperationException;
+import exceptions.InvalidOperationException;
 
 public class BasicBankAccount {
     private String accountNumber;
