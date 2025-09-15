@@ -1,4 +1,4 @@
-package mordor_plan.food;
+package food;
 
 public class Melon extends Food {
     public Melon() {

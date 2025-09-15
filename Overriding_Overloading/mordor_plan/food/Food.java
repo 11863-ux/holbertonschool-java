@@ -1,4 +1,4 @@
-package mordor_plan.food;
+package food;
 
 public abstract class Food {
     protected int happinessPoints;

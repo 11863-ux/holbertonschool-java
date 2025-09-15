@@ -1,4 +1,4 @@
-package mordor_plan.food;
+package food;
 
 public class Cram extends Food {
     public Cram() {
