@@ -22,7 +22,7 @@ public class Query {
 
     public static List<Product> apply15PercentDiscountToElectronics(List<Product> products){
         return products.stream().map(product -> {
-            return new Product(product.code, product.name,  product.category, product.price-product.price*15/100);
+            return new Product(product.code, product.name,  product.category, product.category==ProductCategory.ELECTRONIC ? product.price-product.price*15/100:product.price);
         }).toList();
     }
 }
