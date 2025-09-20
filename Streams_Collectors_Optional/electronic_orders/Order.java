@@ -18,6 +18,6 @@ public class Order {
 
     @Override
     public String toString() {
-        return String.format("[%s] <%s>", code, client.name);
+        return String.format("[%s] %s", code, client.name);
     }
 }
