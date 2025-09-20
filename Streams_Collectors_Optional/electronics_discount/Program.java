@@ -1,3 +1,5 @@
+import java.util.List;
+
 public class Program {
     public static void main(String[] args) {
         Product product1 = new Product(1,
