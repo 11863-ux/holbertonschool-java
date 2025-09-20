@@ -1,5 +1,3 @@
-package electronics_discount;
-
 import java.util.Comparator;
 import java.util.List;
 
