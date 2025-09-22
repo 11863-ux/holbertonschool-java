@@ -12,6 +12,10 @@ public class Student implements Serializable {
         this.password = password;
     }
 
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
     @Override
     public String toString() {
         return String.format("Student { name='%s', age='%d', password='%s' }",  name,age, password);
