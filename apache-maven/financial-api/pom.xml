@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <properties>
-        <maven.compiler.source>17.0.15</maven.compiler.source>
+        <maven.compiler.source>1.8</maven.compiler.source>
     </properties>
 
     <groupId>com.techcamps.financial</groupId>
@@ -65,7 +65,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>src.main.java.com.techcamps.financial.FinancialMain</mainClass> <!-- Main class-ın yolunu göstər -->
+                            <mainClass>src.main.java.FinancialMain</mainClass> <!-- Main class-ın yolunu göstər -->
                         </manifest>
                     </archive>
                     <descriptorRefs>
