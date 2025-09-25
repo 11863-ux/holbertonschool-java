@@ -65,7 +65,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>src.main.java.FinancialMain</mainClass> <!-- Main class-ın yolunu göstər -->
+                            <mainClass>com.techcamps.financial.FinancialMain</mainClass> <!-- Main class-ın yolunu göstər -->
                         </manifest>
                     </archive>
                     <descriptorRefs>
