@@ -21,9 +21,4 @@ public class Phone {
         if(this == obj) return true;
         return Objects.equals(this.areaCode, ((Phone) obj).areaCode) && Objects.equals(this.number, ((Phone) obj).number);
     }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(areaCode, number);
-    }
 }
