@@ -4,15 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-<!--    <properties>-->
-<!--        <maven.compiler.source>1.0-SNAPSHOT</maven.compiler.source>-->
-<!--    </properties>-->
+    <properties>
+        <maven.compiler.source>1.0-SNAPSHOT</maven.compiler.source>
+    </properties>
 
     <groupId>com.techcamps.financial</groupId>
     <artifactId>financial-api</artifactId>
     <name>Project Financial Demo</name>
     <description>Project Financial Demo with Apache Maven Demo</description>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>${maven.compiler.source}</version>
 
 
 
