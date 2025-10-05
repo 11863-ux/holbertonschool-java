@@ -17,7 +17,7 @@ public class PersonTest {
     Person person;
 
     @BeforeEach
-    public void setUp(){
+    public void setup(){
         this.name = "Paul";
         this.surname = "McCartney";
         this.salary=1200;
