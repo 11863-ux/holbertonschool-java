@@ -19,7 +19,7 @@ public class EmailTest {
 
     @Test
     public void test_email_without_at_symbol(){
-        Assertions.assertTrue(person.isEmailValid("email_testdomain.com"));
+        Assertions.assertFalse(person.isEmailValid("email_testdomain.com"));
     }
 
     @Test
