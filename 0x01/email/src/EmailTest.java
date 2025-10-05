@@ -18,7 +18,7 @@ public class EmailTest {
     }
 
     @Test
-    public void test_email_without_at_symbol(){
+    public void testar_email_sem_arroba(){
         Assertions.assertFalse(person.isEmailValid("email_testdomain.com"));
     }
 
