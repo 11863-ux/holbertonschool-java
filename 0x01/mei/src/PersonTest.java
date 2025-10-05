@@ -21,7 +21,11 @@ public class PersonTest {
         this.name = "Paul";
         this.surname = "McCartney";
         this.salary=1200;
-        this.birthDate = new Date(2005, Calendar.APRIL,16);
+        this.birthDate = new Date(2000);
+        this.anotherCompanyOwner = true;
+        this.pensioner = true;
+        this.publicServer = true;
+
     }
 
     @Test
