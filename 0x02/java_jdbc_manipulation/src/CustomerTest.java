@@ -1,3 +1,5 @@
+package java_jdbc_manipulation.src;
+
 public class CustomerTest {
 
     public static void main(String[] args) {
