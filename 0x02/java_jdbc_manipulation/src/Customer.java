@@ -45,4 +45,15 @@ public class Customer {
     public String getRg() {
         return rg;
     }
+
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                ", cpf='" + cpf + '\'' +
+                ", rg='" + rg + '\'' +
+                '}';
+    }
 }
