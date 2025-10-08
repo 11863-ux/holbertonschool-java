@@ -1,6 +1,3 @@
-JDBC-Java % cd src
-src % cat CustomerTest.java
-
 public class CustomerTest {
 
     public static void main(String[] args) {
@@ -43,5 +40,3 @@ public class CustomerTest {
     }
 
 }
-
-src %
