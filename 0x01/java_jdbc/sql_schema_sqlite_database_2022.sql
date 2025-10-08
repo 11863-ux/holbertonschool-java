@@ -1,0 +1,1 @@
+CREATE TABLE Client(name varchar,surname varchar)
