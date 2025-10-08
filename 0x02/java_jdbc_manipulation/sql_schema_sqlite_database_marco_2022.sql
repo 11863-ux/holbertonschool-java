@@ -1,0 +1,1 @@
+CREATE TABLE customer(id Integer Primary Key Autoincrement,name Text Not Null,age Integer,cpf Text,rg Text)
