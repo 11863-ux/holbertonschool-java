@@ -1,1 +1,9 @@
-{}
+{
+  "name": "Nmae Surname",
+  "street": "28 May Street",
+  "building": "78",
+  "district": "District Name",
+  "city": "Baku",
+  "postal_code": "AZ1000",
+  "country": "Azerbaijan"
+}
