@@ -1,0 +1,9 @@
+Microservices are an architectural style where an application is composed of loosely coupled, independently deployable services. Each microservice focuses on a single business function, communicates with other services through lightweight protocols, and can be developed and deployed independently.
+In contrast, monolithic architecture involves a single, tightly integrated application where all functionalities are interdependent. This can create challenges in scaling, deploying, and maintaining large systems.
+The benefits of microservices architecture include:
+Scalability: Each service can be scaled independently based on demand, optimizing resource usage.
+Resilience: Failure in one service doesn't bring down the entire system, allowing for more robust and fault-tolerant applications.
+Faster Development and Deployment: Smaller, focused teams can work on individual services, speeding up development and enabling continuous deployment.
+Microservices communicate through two primary types of communication:
+Synchronous communication: Typically HTTP/REST or gRPC, where services wait for a response before proceeding.
+Asynchronous communication: Often using message brokers (e.g., Kafka, RabbitMQ), allowing services to send messages without waiting for immediate responses, enhancing system resilience and scalability.
