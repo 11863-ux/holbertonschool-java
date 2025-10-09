@@ -6,267 +6,267 @@
     "regiao": {
       "id": 1,
       "sigla": "N",
-      "nome": "Norte"
+      "name": "Norte"
     }
   },
   {
     "id": 12,
     "sigla": "AC",
-    "nome": "Acre",
+    "name": "Acre",
     "regiao": {
       "id": 1,
       "sigla": "N",
-      "nome": "Norte"
+      "name": "Norte"
     }
   },
   {
     "id": 13,
     "sigla": "AM",
-    "nome": "Amazonas",
+    "name": "Amazonas",
     "regiao": {
       "id": 1,
       "sigla": "N",
-      "nome": "Norte"
+      "name": "Norte"
     }
   },
   {
     "id": 14,
     "sigla": "RR",
-    "nome": "Roraima",
+    "name": "Roraima",
     "regiao": {
       "id": 1,
       "sigla": "N",
-      "nome": "Norte"
+      "name": "Norte"
     }
   },
   {
     "id": 15,
     "sigla": "PA",
-    "nome": "Pará",
+    "name": "Pará",
     "regiao": {
       "id": 1,
       "sigla": "N",
-      "nome": "Norte"
+      "name": "Norte"
     }
   },
   {
     "id": 16,
     "sigla": "AP",
-    "nome": "Amapá",
+    "name": "Amapá",
     "regiao": {
       "id": 1,
       "sigla": "N",
-      "nome": "Norte"
+      "name": "Norte"
     }
   },
   {
     "id": 17,
     "sigla": "TO",
-    "nome": "Tocantins",
+    "name": "Tocantins",
     "regiao": {
       "id": 1,
       "sigla": "N",
-      "nome": "Norte"
+      "name": "Norte"
     }
   },
   {
     "id": 21,
     "sigla": "MA",
-    "nome": "Maranhão",
+    "name": "Maranhão",
     "regiao": {
       "id": 2,
       "sigla": "NE",
-      "nome": "Nordeste"
+      "name": "Nordeste"
     }
   },
   {
     "id": 22,
     "sigla": "PI",
-    "nome": "Piauí",
+    "name": "Piauí",
     "regiao": {
       "id": 2,
       "sigla": "NE",
-      "nome": "Nordeste"
+      "name": "Nordeste"
     }
   },
   {
     "id": 23,
     "sigla": "CE",
-    "nome": "Ceará",
+    "name": "Ceará",
     "regiao": {
       "id": 2,
       "sigla": "NE",
-      "nome": "Nordeste"
+      "name": "Nordeste"
     }
   },
   {
     "id": 24,
     "sigla": "RN",
-    "nome": "Rio Grande do Norte",
+    "name": "Rio Grande do Norte",
     "regiao": {
       "id": 2,
       "sigla": "NE",
-      "nome": "Nordeste"
+      "name": "Nordeste"
     }
   },
   {
     "id": 25,
     "sigla": "PB",
-    "nome": "Paraíba",
+    "name": "Paraíba",
     "regiao": {
       "id": 2,
       "sigla": "NE",
-      "nome": "Nordeste"
+      "name": "Nordeste"
     }
   },
   {
     "id": 26,
     "sigla": "PE",
-    "nome": "Pernambuco",
+    "name": "Pernambuco",
     "regiao": {
       "id": 2,
       "sigla": "NE",
-      "nome": "Nordeste"
+      "name": "Nordeste"
     }
   },
   {
     "id": 27,
     "sigla": "AL",
-    "nome": "Alagoas",
+    "name": "Alagoas",
     "regiao": {
       "id": 2,
       "sigla": "NE",
-      "nome": "Nordeste"
+      "name": "Nordeste"
     }
   },
   {
     "id": 28,
     "sigla": "SE",
-    "nome": "Sergipe",
+    "name": "Sergipe",
     "regiao": {
       "id": 2,
       "sigla": "NE",
-      "nome": "Nordeste"
+      "name": "Nordeste"
     }
   },
   {
     "id": 29,
     "sigla": "BA",
-    "nome": "Bahia",
+    "name": "Bahia",
     "regiao": {
       "id": 2,
       "sigla": "NE",
-      "nome": "Nordeste"
+      "name": "Nordeste"
     }
   },
   {
     "id": 31,
     "sigla": "MG",
-    "nome": "Minas Gerais",
+    "name": "Minas Gerais",
     "regiao": {
       "id": 3,
       "sigla": "SE",
-      "nome": "Sudeste"
+      "name": "Sudeste"
     }
   },
   {
     "id": 32,
     "sigla": "ES",
-    "nome": "Espírito Santo",
+    "name": "Espírito Santo",
     "regiao": {
       "id": 3,
       "sigla": "SE",
-      "nome": "Sudeste"
+      "name": "Sudeste"
     }
   },
   {
     "id": 33,
     "sigla": "RJ",
-    "nome": "Rio de Janeiro",
+    "name": "Rio de Janeiro",
     "regiao": {
       "id": 3,
       "sigla": "SE",
-      "nome": "Sudeste"
+      "name": "Sudeste"
     }
   },
   {
     "id": 35,
     "sigla": "SP",
-    "nome": "São Paulo",
+    "name": "São Paulo",
     "regiao": {
       "id": 3,
       "sigla": "SE",
-      "nome": "Sudeste"
+      "name": "Sudeste"
     }
   },
   {
     "id": 41,
     "sigla": "PR",
-    "nome": "Paraná",
+    "name": "Paraná",
     "regiao": {
       "id": 4,
       "sigla": "S",
-      "nome": "Sul"
+      "name": "Sul"
     }
   },
   {
     "id": 42,
     "sigla": "SC",
-    "nome": "Santa Catarina",
+    "name": "Santa Catarina",
     "regiao": {
       "id": 4,
       "sigla": "S",
-      "nome": "Sul"
+      "name": "Sul"
     }
   },
   {
     "id": 43,
     "sigla": "RS",
-    "nome": "Rio Grande do Sul",
+    "name": "Rio Grande do Sul",
     "regiao": {
       "id": 4,
       "sigla": "S",
-      "nome": "Sul"
+      "name": "Sul"
     }
   },
   {
     "id": 50,
     "sigla": "MS",
-    "nome": "Mato Grosso do Sul",
+    "name": "Mato Grosso do Sul",
     "regiao": {
       "id": 5,
       "sigla": "CO",
-      "nome": "Centro-Oeste"
+      "name": "Centro-Oeste"
     }
   },
   {
     "id": 51,
     "sigla": "MT",
-    "nome": "Mato Grosso",
+    "name": "Mato Grosso",
     "regiao": {
       "id": 5,
       "sigla": "CO",
-      "nome": "Centro-Oeste"
+      "name": "Centro-Oeste"
     }
   },
   {
     "id": 52,
     "sigla": "GO",
-    "nome": "Goiás",
+    "name": "Goiás",
     "regiao": {
       "id": 5,
       "sigla": "CO",
-      "nome": "Centro-Oeste"
+      "name": "Centro-Oeste"
     }
   },
   {
     "id": 53,
     "sigla": "DF",
-    "nome": "Distrito Federal",
+    "name": "Distrito Federal",
     "regiao": {
       "id": 5,
       "sigla": "CO",
-      "nome": "Centro-Oeste"
+      "name": "Centro-Oeste"
     }
   }
 ]
