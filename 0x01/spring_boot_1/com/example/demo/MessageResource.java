@@ -4,7 +4,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController(value = "/messages")
+@RestController()
+@RequestMapping(value = "/messages")
 public class MessageResource {
 
     @GetMapping(value = "/simpleMessageWelcome")
