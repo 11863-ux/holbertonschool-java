@@ -1,0 +1,21 @@
+What is Serverless Architecture?
+Serverless architecture is a cloud computing model where developers build and run applications without managing server infrastructure. In this model, the cloud provider automatically provisions, scales, and manages the servers needed to run the application code. Despite the name, servers are still involved, but their management is abstracted away from the developer. Serverless is ideal for event-driven applications, such as APIs, data processing, or real-time file or stream handling.
+What is Function as a Service (FaaS)?
+Function as a Service (FaaS) is a key component of serverless architecture. It allows developers to write code in the form of small, single-purpose functions that are triggered by events (e.g., HTTP requests, file uploads). Each function runs in isolation and is executed only when called, scaling automatically based on demand. Popular FaaS platforms include AWS Lambda, Azure Functions, and Google Cloud Functions.
+Benefits of Using Serverless Architecture:
+No Server Management: Developers don't need to provision or maintain servers.
+Automatic Scaling: Functions scale automatically based on the number of incoming requests.
+Cost Efficiency: You pay only for the compute time you use, not for idle server time.
+Faster Time to Market: Focus is on writing code, not infrastructure, speeding up development.
+Built-in High Availability: Most serverless platforms provide redundancy and fault tolerance out of the box.
+What is Cloud Computing? And What Are Its Benefits?
+Cloud computing is the delivery of computing services (such as storage, databases, networking, and software) over the internet. It eliminates the need for physical hardware and provides on-demand access to resources. Cloud computing offers:
+Scalability: Resources can be scaled up or down based on need.
+Flexibility: Services are accessible from anywhere with an internet connection.
+Cost Savings: Pay-as-you-go pricing avoids large upfront infrastructure costs.
+Reliability: Cloud providers offer robust disaster recovery and backup options.
+Global Reach: Services can be deployed in multiple regions for improved performance and compliance.
+Main Differences Between Monolithic Architecture, Microservices, and Serverless:
+Monolithic Architecture: A single, unified application where all components are tightly integrated. Easier to develop initially but harder to scale and maintain as the application grows.
+Microservices Architecture: Breaks the application into independent services, each responsible for a specific function. Enables better scalability and easier maintenance but introduces complexity in communication and deployment.
+Serverless Architecture: Takes microservices further by using functions instead of services. Developers deploy individual functions that respond to events. It reduces operational overhead and increases scalability, but it can introduce challenges in debugging and function coordination.
