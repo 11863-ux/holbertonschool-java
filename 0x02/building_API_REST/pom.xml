@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.song</groupId>
-    <artifactId>demo</artifactId>
+    <artifactId>SongAPI</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>building_API_REST</name>
     <description>building_API_REST</description>
