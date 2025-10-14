@@ -8,9 +8,11 @@
     <artifactId>holberton-tasks</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-<!--    <modules>-->
-<!--        <module>0x01/spring_boot_1/Demo</module>-->
-<!--    </modules>-->
+    <modules>
+        <module>0x01/spring_boot_1</module>
+        <module>0x01/spring_boot_2</module>
+        <module>0x02/building_API_REST</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
