@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99d9b7b8-0ebe-49ec-9926-9f549187a90c" name="Changes" comment="Task 2" />
+    <list default="true" id="99d9b7b8-0ebe-49ec-9926-9f549187a90c" name="Changes" comment="Task 1">
+      <change beforePath="$PROJECT_DIR$/0x03/creating_spring_boot_JPA/src/test/java/com/techcamps/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x03/creating_spring_boot_JPA/src/test/java/com/techcamps/demo/DemoApplicationTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,9 +74,11 @@
       <recent name="$PROJECT_DIR$/0x02/building_API_REST" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/0x03/package_application" />
+      <recent name="$PROJECT_DIR$/0x03/creating_spring_boot_JPA/com/techcamps" />
+      <recent name="$PROJECT_DIR$/0x03/creating_spring_boot_JPA/com" />
+      <recent name="$PROJECT_DIR$/0x03/creating_spring_boot_JPA" />
       <recent name="$PROJECT_DIR$/0x02/building_API_REST" />
-      <recent name="$PROJECT_DIR$/0x02/building_API_REST/com/song" />
-      <recent name="$PROJECT_DIR$/0x02/building_API_REST/com" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.SongApi">
@@ -110,7 +114,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1760476843368</updated>
-      <workItem from="1760476844729" duration="3177000" />
+      <workItem from="1760476844729" duration="3588000" />
     </task>
     <task id="LOCAL-00001" summary="Task 1">
       <option name="closed" value="true" />
@@ -160,15 +164,39 @@
       <option name="project" value="LOCAL" />
       <updated>1760479211895</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Task 1">
+      <option name="closed" value="true" />
+      <created>1760507262587</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1760507262587</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Task 1">
+      <option name="closed" value="true" />
+      <created>1760507347304</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1760507347304</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Task 1">
+      <option name="closed" value="true" />
+      <created>1760507403470</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1760507403470</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Task 1" />
     <MESSAGE value="Task 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 2" />
+    <MESSAGE value="Task 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 1" />
   </component>
 </project>
