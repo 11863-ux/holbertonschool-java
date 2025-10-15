@@ -78,10 +78,10 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.SongApi">
-    <configuration name="CreatingSpringBootJpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="demo (1) (com.techCamps)" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.techcamps.demo.CreatingSpringBootJpaApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.techcamps.demo.DemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
