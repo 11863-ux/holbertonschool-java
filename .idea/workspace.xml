@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99d9b7b8-0ebe-49ec-9926-9f549187a90c" name="Changes" comment="Task 1">
-      <change beforePath="$PROJECT_DIR$/0x03/creating_spring_boot_JPA/src/test/java/com/techcamps/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x03/creating_spring_boot_JPA/src/test/java/com/techcamps/demo/DemoApplicationTests.java" afterDir="false" />
+    <list default="true" id="99d9b7b8-0ebe-49ec-9926-9f549187a90c" name="Changes" comment="Task 2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,33 +59,53 @@
     "Spring Boot.SongApi.executor": "Debug",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/mirhabil/IdeaProjects/holberton-tasks/0x02/packaging_application",
+    "last_opened_file_path": "/Users/mirhabil/IdeaProjects/holberton-tasks/0x04/JPA+H2_database",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/0x04/JPA+H2_database" />
       <recent name="$PROJECT_DIR$/0x02/packaging_application" />
       <recent name="$PROJECT_DIR$/0x02/building_API_REST" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/0x04/JPA+H2_database" />
+      <recent name="$PROJECT_DIR$/0x04/JPA+H2_database/com/example" />
+      <recent name="$PROJECT_DIR$/0x04/JPA+H2_database/com" />
       <recent name="$PROJECT_DIR$/0x03/package_application" />
       <recent name="$PROJECT_DIR$/0x03/creating_spring_boot_JPA/com/techcamps" />
-      <recent name="$PROJECT_DIR$/0x03/creating_spring_boot_JPA/com" />
-      <recent name="$PROJECT_DIR$/0x03/creating_spring_boot_JPA" />
-      <recent name="$PROJECT_DIR$/0x02/building_API_REST" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.SongApi">
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="demo (1) (com.techCamps)" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.techcamps.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JpaH2DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="jpa-h2-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.jpah2demo.JpaH2DemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,7 +134,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1760476843368</updated>
-      <workItem from="1760476844729" duration="3588000" />
+      <workItem from="1760476844729" duration="6611000" />
     </task>
     <task id="LOCAL-00001" summary="Task 1">
       <option name="closed" value="true" />
@@ -188,15 +208,23 @@
       <option name="project" value="LOCAL" />
       <updated>1760507403470</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Task 2">
+      <option name="closed" value="true" />
+      <created>1760507565387</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1760507565387</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Task 2" />
     <MESSAGE value="Task 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 1" />
+    <MESSAGE value="Task 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 2" />
   </component>
 </project>
