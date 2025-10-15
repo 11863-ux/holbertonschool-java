@@ -77,7 +77,15 @@
       <recent name="$PROJECT_DIR$/0x02/building_API_REST/com" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.SongApi">
+    <configuration name="CreatingSpringBootJpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="demo (1) (com.techCamps)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.techcamps.demo.CreatingSpringBootJpaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SongApi" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="demo" />
@@ -102,7 +110,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1760476843368</updated>
-      <workItem from="1760476844729" duration="2354000" />
+      <workItem from="1760476844729" duration="3177000" />
     </task>
     <task id="LOCAL-00001" summary="Task 1">
       <option name="closed" value="true" />
@@ -144,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760479153439</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Task 2">
+      <option name="closed" value="true" />
+      <created>1760479211895</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1760479211895</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
