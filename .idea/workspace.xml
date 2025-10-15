@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99d9b7b8-0ebe-49ec-9926-9f549187a90c" name="Changes" comment="Task 2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="99d9b7b8-0ebe-49ec-9926-9f549187a90c" name="Changes" comment="Task 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +46,7 @@
     "Maven.demo [clean].executor": "Run",
     "Maven.demo [install].executor": "Run",
     "Maven.demo [package].executor": "Run",
+    "Maven.jpa-h2-demo [package].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -59,7 +58,7 @@
     "Spring Boot.SongApi.executor": "Debug",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/mirhabil/IdeaProjects/holberton-tasks/0x04/JPA+H2_database",
+    "last_opened_file_path": "/Users/mirhabil/IdeaProjects/holberton-tasks/0x04/package_API_REST_JAR",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -71,6 +70,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/0x04/package_API_REST_JAR" />
       <recent name="$PROJECT_DIR$/0x04/JPA+H2_database" />
       <recent name="$PROJECT_DIR$/0x02/packaging_application" />
       <recent name="$PROJECT_DIR$/0x02/building_API_REST" />
@@ -134,7 +134,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1760476843368</updated>
-      <workItem from="1760476844729" duration="6611000" />
+      <workItem from="1760476844729" duration="6947000" />
     </task>
     <task id="LOCAL-00001" summary="Task 1">
       <option name="closed" value="true" />
@@ -216,7 +216,31 @@
       <option name="project" value="LOCAL" />
       <updated>1760507565387</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Task 1">
+      <option name="closed" value="true" />
+      <created>1760541579233</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1760541579233</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Task 1">
+      <option name="closed" value="true" />
+      <created>1760541629078</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1760541629078</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Task 2">
+      <option name="closed" value="true" />
+      <created>1760541738315</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1760541738315</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
