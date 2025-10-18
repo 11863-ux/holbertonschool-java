@@ -13,7 +13,11 @@ public class UserController {
     public String findUserById(@PathVariable int id) {
 
         String msg = "";
-        // TODO
+
+        if (id < 0 || id > 100) {
+            msg = "You have entered a valid ID";
+        }else msg = "You have entered an invalid ID.";
+
         return msg;
     }
 
