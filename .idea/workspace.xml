@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99d9b7b8-0ebe-49ec-9926-9f549187a90c" name="Changes" comment="Task 1" />
+    <list default="true" id="99d9b7b8-0ebe-49ec-9926-9f549187a90c" name="Changes" comment="Task 1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,6 +84,9 @@
       <recent name="$PROJECT_DIR$/0x03/package_application" />
       <recent name="$PROJECT_DIR$/0x03/creating_spring_boot_JPA/com/techcamps" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.user" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -152,7 +157,7 @@
       <updated>1760476843368</updated>
       <workItem from="1760476844729" duration="7573000" />
       <workItem from="1760732766366" duration="1543000" />
-      <workItem from="1760780609536" duration="1614000" />
+      <workItem from="1760780609536" duration="2585000" />
     </task>
     <task id="LOCAL-00001" summary="Task 1">
       <option name="closed" value="true" />
@@ -322,7 +327,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760782153130</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Task 1">
+      <option name="closed" value="true" />
+      <created>1760782236103</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1760782236103</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
