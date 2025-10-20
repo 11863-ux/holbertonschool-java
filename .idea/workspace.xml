@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99d9b7b8-0ebe-49ec-9926-9f549187a90c" name="Changes" comment="Task 1" />
+    <list default="true" id="99d9b7b8-0ebe-49ec-9926-9f549187a90c" name="Changes" comment="Task 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -155,7 +155,7 @@
       <updated>1760476843368</updated>
       <workItem from="1760476844729" duration="7573000" />
       <workItem from="1760732766366" duration="1543000" />
-      <workItem from="1760780609536" duration="3307000" />
+      <workItem from="1760780609536" duration="3612000" />
     </task>
     <task id="LOCAL-00001" summary="Task 1">
       <option name="closed" value="true" />
@@ -405,15 +405,39 @@
       <option name="project" value="LOCAL" />
       <updated>1760991335087</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Task 2">
+      <option name="closed" value="true" />
+      <created>1760991511642</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1760991511642</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Task 2">
+      <option name="closed" value="true" />
+      <created>1760991575545</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1760991575545</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Task 2">
+      <option name="closed" value="true" />
+      <created>1760991613807</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1760991613807</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Task 2" />
     <MESSAGE value="Task 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 1" />
+    <MESSAGE value="Task 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 2" />
   </component>
 </project>
