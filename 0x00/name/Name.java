@@ -21,8 +21,8 @@ public class Name {
     public class TableRepresent {};
     public void saveCar(){};
     // One word per concept
-    // B
-    public saveUser(){}; createAccount(){}; generateContract(){};
+    // A
+    public saveUser(){}; saveAccount(){}; saveContract(){};
 
     // Use constants or enums instead of magic numbers or abbreviations
     // B
