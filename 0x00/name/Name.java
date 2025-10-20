@@ -6,8 +6,7 @@ public class Name {
 
     // Correct Declarations
     // A
-    public List<Account> AccountList;
-    // B
+    public List<Account> accountList;
 
     // No Prefixes
     // B
