@@ -5,8 +5,6 @@ public class Name {
     public List<Testcase> findAllTestcasesByUser(Name.User user){};
 
     // Correct Declarations
-    // A
-    public List<Account> AccountList;
     // B
     public Account[] AccountList;
 
