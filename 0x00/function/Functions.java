@@ -16,8 +16,8 @@ public class Functions {
     }
 
     // Arguments
-    // B
-    public void saveUser(String userName, User user, Date date, boolean isAdmin){};
+    // A
+    public void saveUser(User user){};
 
     // No side effects
 
