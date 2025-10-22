@@ -11,7 +11,6 @@ import java.util.List;
 @RequestMapping(value = "/products")
 public class ProductController {
 
-
     @Autowired
     ProductRepository productRepository;
 
@@ -19,33 +18,47 @@ public class ProductController {
      * Responsible for returning a list of products.
      */
     @GetMapping(value = "/allProducts")
-    public List<Product> getAllProducts(){
+    public List<Product> getAllProducts() {
         return productRepository.getAllProducts();
     }
 
+    /**
+     * Responsible for returning a product by its ID.
+     */
     @GetMapping(value = "/findProductById/{id}")
     public Product getProductById(@PathVariable Long id) {
         return productRepository.getProductById(id);
     }
 
+    /**
+     * Responsible for adding a product.
+     */
     @PostMapping(value = "/addProduct")
-    public void addProduct(Product p) {
+    public void addProduct(@RequestBody Product p) {
         productRepository.addProduct(p);
     }
 
-
+    /**
+     * Responsible for updating a product.
+     */
     @PutMapping(value = "/updateProduct")
-    public void updateProduct(Product p) {
+    public void updateProduct(@RequestBody Product p) {
         productRepository.updateProduct(p);
     }
 
+    /**
+     * Responsible for removing a product.
+     */
     @DeleteMapping(value = "/removeProduct")
-    public void removeProduct(Product p) {
+    public void removeProduct(@RequestBody Product p) {
         productRepository.removeProduct(p);
     }
 
-    @GetMapping(value = "welcome")
-    public String welcome(){
+    /**
+     * WELCOME TO THE PRODUCT REST API.
+     */
+    @GetMapping(value = "/welcome")
+    public String welcome() {
         return "Welcome to the product API!";
     }
 }
