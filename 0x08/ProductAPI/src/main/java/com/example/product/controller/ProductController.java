@@ -25,6 +25,7 @@ public class ProductController {
         response.setData(products);
 
         if (products.size() > 1000) {
+            // code = 11
             response.setResponseCode(11);
             response.setDescription("Warning - the process returned more than 1000 products.");
         } else {
@@ -44,6 +45,7 @@ public class ProductController {
         ApiResponse<Product> response = new ApiResponse<>();
 
         if (id == null) {
+            // code = 12
             response.setResponseCode(12);
             response.setDescription("The field id not informed. This information is required.");
             response.setData(null);
@@ -74,6 +76,7 @@ public class ProductController {
         ApiResponse<Void> response = new ApiResponse<>();
 
         if (p == null || p.getName() == null || p.getCategory() == null) {
+            // code = 10
             response.setResponseCode(10);
             response.setDescription("Required fields not informed.");
             return response;
@@ -95,6 +98,7 @@ public class ProductController {
         Product existing = productRepository.getProductById(p.getId());
 
         if (existing != null && existing.equals(p)) {
+            // code = 14
             response.setResponseCode(14);
             response.setDescription("No information has been updated. The new information is the same as recorded in the database.");
             return response;
@@ -115,6 +119,7 @@ public class ProductController {
         ApiResponse<Void> response = new ApiResponse<>();
 
         if ("Restricted".equalsIgnoreCase(p.getCategory())) {
+            // code = 13
             response.setResponseCode(13);
             response.setDescription("User not allowed to remove a product from this category.");
             return response;
