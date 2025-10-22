@@ -15,6 +15,9 @@ public class ProductController {
     @Autowired
     ProductRepository productRepository;
 
+    /**
+     * Responsible for returning a list of products.
+     */
     @GetMapping(value = "/allProducts")
     public List<Product> getAllProducts(){
         return productRepository.getAllProducts();
