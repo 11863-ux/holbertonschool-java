@@ -2,7 +2,6 @@ package com.example.product.controller;
 
 import com.example.product.model.Product;
 import com.example.product.model.ProductRepository;
-import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -17,58 +16,113 @@ public class ProductController {
 
     /**
      * Responsible for returning a list of products.
+     * Custom Code 11: More than 1000 products.
      */
     @GetMapping(value = "/allProducts")
     public ApiResponse<List<Product>> getAllProducts() {
-        ApiResponse response=new ApiResponse();
-        response.setData(productRepository.getAllProducts());
-        response.setDescription("Warning - the process returned more than 1000 products.");
-        response.setResponseCode(11);
+        List<Product> products = productRepository.getAllProducts();
+        ApiResponse<List<Product>> response = new ApiResponse<>();
+        response.setData(products);
+
+        if (products.size() > 1000) {
+            response.setResponseCode(11);
+            response.setDescription("Warning - the process returned more than 1000 products.");
+        } else {
+            response.setResponseCode(200);
+            response.setDescription("OK");
+        }
+
         return response;
     }
 
     /**
      * Responsible for returning a product by its ID.
+     * Custom Code 12: ID not informed.
      */
     @GetMapping(value = "/findProductById/{id}")
-    public ApiResponse<Product> getProductById(@PathVariable Long id) {
-        ApiResponse response=new ApiResponse();
-        response.setData(productRepository.getProductById(id));
-        response.setDescription("The field id not informed. This information is required.");
-        response.setResponseCode(12);
+    public ApiResponse<Product> getProductById(@PathVariable(required = false) Long id) {
+        ApiResponse<Product> response = new ApiResponse<>();
+
+        if (id == null) {
+            response.setResponseCode(12);
+            response.setDescription("The field id not informed. This information is required.");
+            response.setData(null);
+            return response;
+        }
+
+        Product product = productRepository.getProductById(id);
+
+        if (product == null) {
+            response.setResponseCode(404);
+            response.setDescription("Product not found.");
+            response.setData(null);
+        } else {
+            response.setResponseCode(200);
+            response.setDescription("OK");
+            response.setData(product);
+        }
+
         return response;
     }
 
     /**
      * Responsible for adding a product.
+     * Custom Code 10: Required fields not informed.
      */
     @PostMapping(value = "/addProduct")
-    public ApiResponse addProduct(@RequestBody Product p) {
-        ApiResponse response=new ApiResponse();
-        response.setDescription("Required fields not informed.");
-        response.setResponseCode(10);
+    public ApiResponse<Void> addProduct(@RequestBody Product p) {
+        ApiResponse<Void> response = new ApiResponse<>();
+
+        if (p == null || p.getName() == null || p.getCategory() == null) {
+            response.setResponseCode(10);
+            response.setDescription("Required fields not informed.");
+            return response;
+        }
+
+        productRepository.addProduct(p);
+        response.setResponseCode(201);
+        response.setDescription("Product added successfully.");
         return response;
     }
 
     /**
      * Responsible for updating a product.
+     * Custom Code 14: No information updated.
      */
     @PutMapping(value = "/updateProduct")
-    public ApiResponse updateProduct(@RequestBody Product p) {
-        ApiResponse response=new ApiResponse();
-        response.setDescription("No information has been updated. The new information is the same as recorded in the database.");
-        response.setResponseCode(14);
+    public ApiResponse<Void> updateProduct(@RequestBody Product p) {
+        ApiResponse<Void> response = new ApiResponse<>();
+        Product existing = productRepository.getProductById(p.getId());
+
+        if (existing != null && existing.equals(p)) {
+            response.setResponseCode(14);
+            response.setDescription("No information has been updated. The new information is the same as recorded in the database.");
+            return response;
+        }
+
+        productRepository.updateProduct(p);
+        response.setResponseCode(200);
+        response.setDescription("Product updated successfully.");
         return response;
     }
 
     /**
      * Responsible for removing a product.
+     * Custom Code 13: Not allowed to remove from category.
      */
     @DeleteMapping(value = "/removeProduct")
-    public ApiResponse removeProduct(@RequestBody Product p) {
-        ApiResponse response=new ApiResponse();
-        response.setDescription("User not allowed to remove a product from this category.");
-        response.setResponseCode(13);
+    public ApiResponse<Void> removeProduct(@RequestBody Product p) {
+        ApiResponse<Void> response = new ApiResponse<>();
+
+        if ("Restricted".equalsIgnoreCase(p.getCategory())) {
+            response.setResponseCode(13);
+            response.setDescription("User not allowed to remove a product from this category.");
+            return response;
+        }
+
+        productRepository.removeProduct(p);
+        response.setResponseCode(200);
+        response.setDescription("Product removed successfully.");
         return response;
     }
 
