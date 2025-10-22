@@ -40,4 +40,9 @@ public class ProductController {
     public void removeProduct(Product p) {
         productRepository.removeProduct(p);
     }
+
+    @GetMapping(value = "welcome")
+    public String welcome(){
+        return "Welcome to the product API!";
+    }
 }
