@@ -40,10 +40,4 @@ public class ProductController {
     public void removeProduct(Product p) {
         productRepository.removeProduct(p);
     }
-
-
-    @PostMapping(value = "/addList")
-    public void addList(List<Product> listOfProducts) {
-        productRepository.addList(listOfProducts);
-    }
 }
