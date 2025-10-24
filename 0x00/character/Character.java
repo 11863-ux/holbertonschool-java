@@ -1,5 +1,3 @@
-package character;
-
 public abstract class Character {
     String name;
     CharacterType type;

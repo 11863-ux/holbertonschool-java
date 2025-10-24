@@ -1,5 +1,3 @@
-package character;
-
 public class Mage extends Character {
     public Mage(String name, int intelligence, int strength, int endurance, int resilience, int dexterity) {
         super(name, CharacterType.MAGE, intelligence, strength, endurance, resilience, dexterity);

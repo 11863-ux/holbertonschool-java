@@ -1,5 +1,3 @@
-package character;
-
 public class Warrior extends Character {
     public Warrior(String name, int intelligence, int strength, int endurance, int resilience, int dexterity) {
         super(name, CharacterType.WARRIOR, intelligence, strength, endurance, resilience, dexterity);

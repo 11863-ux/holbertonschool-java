@@ -1,5 +1,3 @@
-package character;
-
 public class WesterosCharacterFactory extends CharacterFactory {
     @Override
     public Character createCharacter(CharacterType characterType, String name) {
