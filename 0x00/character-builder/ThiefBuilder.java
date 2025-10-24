@@ -44,4 +44,8 @@ public class ThiefBuilder implements Builder{
     public void setResilience(int resilience) {
         this.resilience = resilience;
     }
+
+    public Thief build(){
+        return new Thief(name,type,intelligence,strength,endurance,resilience,dexterity);
+    }
 }
