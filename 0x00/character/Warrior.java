@@ -3,7 +3,7 @@ package character;
 public class Warrior extends Character {
     public Warrior(String name, int intelligence, int strength, int endurance, int resilience, int dexterity) {
         super(name, CharacterType.WARRIOR, intelligence, strength, endurance, resilience, dexterity);
-        if (intelligence<=strength && intelligence<=dexterity) throw new IllegalArgumentException("Invalid attributes for WARRIOR");
+        if (strength<=intelligence && strength<=dexterity) throw new IllegalArgumentException("Invalid attributes for WARRIOR");
     }
 
     @Override

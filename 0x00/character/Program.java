@@ -55,7 +55,7 @@ public class Program {
         }
 
         try {
-            Character invalidThief = new Thief("Invalid Thief", 8, 3, 3, 3, 4);
+            Character invalidThief = new Thief("Invalid Thief", 8, 4, 3, 3, 4);
             System.out.println(invalidThief);
         } catch (Exception ex) {
             System.out.println(ex.getMessage());

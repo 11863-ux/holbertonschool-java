@@ -23,6 +23,6 @@ public abstract class Character {
 
     @Override
     public String toString() {
-        return String.format("Character { name = %s, type = %s, intelligence = %d, strength = %d, endurance = %d, resilience = %d, dexterity = %d, attack damage = %f }",name,type.name(),intelligence,strength,endurance,resilience,dexterity,getAttackDamage());
+        return String.format("Character { name = %s, type = %s, intelligence = %d, strength = %d, endurance = %d, resilience = %d, dexterity = %d, attack damage = %.2f }",name,type.name(),intelligence,strength,endurance,resilience,dexterity,getAttackDamage());
     }
 }
