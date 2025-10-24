@@ -1,5 +1,3 @@
-package character_builder;
-
 public abstract class Character {
     String name;
     CharacterType type;

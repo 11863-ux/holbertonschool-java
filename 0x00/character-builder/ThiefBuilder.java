@@ -1,5 +1,3 @@
-package character_builder;
-
 public class ThiefBuilder implements Builder{
     String name;
     CharacterType type;

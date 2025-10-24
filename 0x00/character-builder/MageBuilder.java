@@ -1,5 +1,3 @@
-package character_builder;
-
 public class MageBuilder implements Builder {
 
     String name;

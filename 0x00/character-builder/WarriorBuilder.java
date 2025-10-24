@@ -1,5 +1,3 @@
-package character_builder;
-
 public class WarriorBuilder implements Builder {
     String nome;
     CharacterType type;

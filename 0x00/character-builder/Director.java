@@ -1,5 +1,3 @@
-package character_builder;
-
 public class Director {
     public void buildWarrior(Builder builder){
         builder.setName("Warrior");

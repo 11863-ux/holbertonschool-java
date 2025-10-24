@@ -1,5 +1,3 @@
-package character_builder;
-
 public interface Builder {
     void setStrength(int strength);
     void setName(String name);
