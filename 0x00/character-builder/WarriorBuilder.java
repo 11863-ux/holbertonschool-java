@@ -1,5 +1,5 @@
 public class WarriorBuilder implements Builder {
-    String nome;
+    String name;
     CharacterType type;
     int intelligence;
     int strength;
