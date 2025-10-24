@@ -1,7 +1,7 @@
 package character_builder;
 
 public class Director {
-    void buildWarrior(Builder builder){
+    public void buildWarrior(Builder builder){
         builder.setName("Warrior");
         builder.setType(CharacterType.WARRIOR);
         builder.setIntelligence(1);
@@ -11,7 +11,7 @@ public class Director {
         builder.setResilience(10);
     }
 
-    void buildThief(Builder builder){
+    public void buildThief(Builder builder){
         builder.setName("Thief");
         builder.setType(CharacterType.THIEF);
         builder.setIntelligence(2);
@@ -21,7 +21,7 @@ public class Director {
         builder.setResilience(5);
     }
 
-    void buildMage(Builder builder){
+    public void buildMage(Builder builder){
         builder.setName("Mage");
         builder.setType(CharacterType.MAGE);
         builder.setIntelligence(10);
