@@ -46,5 +46,9 @@ public class MageBuilder implements Builder {
         this.resilience = resilience;
     }
 
+    public Mage build(){
+        return new Mage(name,type,intelligence,strength,endurance,resilience,dexterity);
+    }
+
 
 }

@@ -44,4 +44,8 @@ public class WarriorBuilder implements Builder {
     public void setResilience(int resilience) {
         this.resilience = resilience;
     }
+
+    public Warrior build(){
+        return new Warrior(name,type,intelligence,strength,endurance,resilience,dexterity);
+    }
 }

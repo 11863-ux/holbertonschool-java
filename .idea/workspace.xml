@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99d9b7b8-0ebe-49ec-9926-9f549187a90c" name="Changes" comment="Task 1">
-      <change beforePath="$PROJECT_DIR$/0x00/character-builder/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x00/character-builder/Director.java" afterDir="false" />
+    <list default="true" id="99d9b7b8-0ebe-49ec-9926-9f549187a90c" name="Changes" comment="Task 2">
+      <change beforePath="$PROJECT_DIR$/0x00/character-builder/MageBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x00/character-builder/MageBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x00/character-builder/WarriorBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x00/character-builder/WarriorBuilder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,7 @@
     "Spring Boot.SongApi.executor": "Debug",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/mirhabil/IdeaProjects/holberton-tasks/0x00/character_builder",
+    "last_opened_file_path": "/Users/mirhabil/IdeaProjects/holberton-tasks/0x00/character-builder",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -78,8 +79,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/0x00/character_builder" />
       <recent name="$PROJECT_DIR$/0x00/character-builder" />
+      <recent name="$PROJECT_DIR$/0x00/character_builder" />
       <recent name="$PROJECT_DIR$/0x04/package_API_REST_JAR" />
       <recent name="$PROJECT_DIR$/0x04/JPA+H2_database" />
       <recent name="$PROJECT_DIR$/0x02/packaging_application" />
@@ -195,31 +196,7 @@
       <workItem from="1760732766366" duration="1543000" />
       <workItem from="1760780609536" duration="9955000" />
       <workItem from="1761335165350" duration="5454000" />
-      <workItem from="1761340821199" duration="3664000" />
-    </task>
-    <task id="LOCAL-00009" summary="Task 1">
-      <option name="closed" value="true" />
-      <created>1760507403470</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1760507403470</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Task 2">
-      <option name="closed" value="true" />
-      <created>1760507565387</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1760507565387</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Task 1">
-      <option name="closed" value="true" />
-      <created>1760541579233</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1760541579233</updated>
+      <workItem from="1761340821199" duration="3972000" />
     </task>
     <task id="LOCAL-00012" summary="Task 1">
       <option name="closed" value="true" />
@@ -589,15 +566,39 @@
       <option name="project" value="LOCAL" />
       <updated>1761342688138</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Task 2">
+      <option name="closed" value="true" />
+      <created>1761344505716</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1761344505716</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Task 2">
+      <option name="closed" value="true" />
+      <created>1761344576861</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1761344576861</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Task 2">
+      <option name="closed" value="true" />
+      <created>1761344685971</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1761344685971</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Task 2" />
     <MESSAGE value="Task 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 1" />
+    <MESSAGE value="Task 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 2" />
   </component>
 </project>
