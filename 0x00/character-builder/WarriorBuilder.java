@@ -1,7 +1,7 @@
 package character_builder;
 
 public class WarriorBuilder implements Builder {
-    String name;
+    String nome;
     CharacterType type;
     int intelligence;
     int strength;
