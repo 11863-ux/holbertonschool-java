@@ -7,7 +7,7 @@ public class Mage extends Character {
     }
 
     @Override
-    double getAttackDamage() {
+    public double getAttackDamage() {
         return (intelligence * 0.8) + (strength * 0.05) + (dexterity * 0.05) + (endurance * 0.1);
     }
 }

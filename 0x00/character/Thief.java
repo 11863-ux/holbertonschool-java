@@ -7,7 +7,7 @@ public class Thief extends Character {
     }
 
     @Override
-    double getAttackDamage() {
+    public double getAttackDamage() {
         return (strength * 0.5) + (dexterity * 0.35) + (endurance * 0.1) + (intelligence * 0.05);
     }
 }

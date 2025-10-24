@@ -19,7 +19,7 @@ public abstract class Character {
         this.dexterity = dexterity;
     }
 
-    abstract double getAttackDamage();
+    public abstract double getAttackDamage();
 
     @Override
     public String toString() {

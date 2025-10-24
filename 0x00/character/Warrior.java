@@ -7,7 +7,7 @@ public class Warrior extends Character {
     }
 
     @Override
-    double getAttackDamage() {
+    public double getAttackDamage() {
         return (strength * 0.8) + (endurance * 0.05) + (dexterity * 0.1) + (intelligence * 0.05);
     }
 }
