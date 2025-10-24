@@ -2,7 +2,7 @@ package character;
 
 public class MiddleEarthCharacterFactory extends CharacterFactory {
     @Override
-    Character createCharacter(CharacterType characterType, String name) {
+    public Character createCharacter(CharacterType characterType, String name) {
         if(characterType.name().equals("MAGE")){
             return new Mage(name,10,2,5,3,4);
         }
