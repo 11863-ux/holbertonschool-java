@@ -47,7 +47,7 @@ public class MageBuilder implements Builder {
     }
 
     public Mage build(){
-        return new Mage(name,type,intelligence,strength,endurance,resilience,dexterity);
+        return new Mage(name,intelligence,strength,endurance,resilience,dexterity);
     }
 
 

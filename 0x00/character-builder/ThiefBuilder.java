@@ -46,6 +46,6 @@ public class ThiefBuilder implements Builder{
     }
 
     public Thief build(){
-        return new Thief(name,type,intelligence,strength,endurance,resilience,dexterity);
+        return new Thief(name,intelligence,strength,endurance,resilience,dexterity);
     }
 }

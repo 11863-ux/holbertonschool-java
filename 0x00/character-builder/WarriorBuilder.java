@@ -46,6 +46,6 @@ public class WarriorBuilder implements Builder {
     }
 
     public Warrior build(){
-        return new Warrior(name,type,intelligence,strength,endurance,resilience,dexterity);
+        return new Warrior(name,intelligence,strength,endurance,resilience,dexterity);
     }
 }
