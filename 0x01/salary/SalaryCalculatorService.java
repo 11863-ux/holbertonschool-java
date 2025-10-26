@@ -4,7 +4,7 @@ public class SalaryCalculatorService {
 
     private SalaryCalculatorService(){}
 
-    public static SalaryCalculatorService instance;
+    private static SalaryCalculatorService instance;
 
     public static SalaryCalculatorService getInstance(){
         if (instance == null){
