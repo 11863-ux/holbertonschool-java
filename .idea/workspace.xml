@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99d9b7b8-0ebe-49ec-9926-9f549187a90c" name="Changes" comment="Task 2">
-      <change beforePath="$PROJECT_DIR$/0x00/character/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x00/character/Builder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x00/character/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x00/character/Character.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x00/character/CharacterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x00/character/CharacterFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x00/character/CharacterType.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x00/character/CharacterType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x00/character/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x00/character/Mage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x00/character/MiddleEarthCharacterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x00/character/MiddleEarthCharacterFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x00/character/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x00/character/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x00/character/Thief.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x00/character/Thief.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x00/character/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x00/character/Warrior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x00/character/WesterosCharacterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x00/character/WesterosCharacterFactory.java" afterDir="false" />
+    <list default="true" id="99d9b7b8-0ebe-49ec-9926-9f549187a90c" name="Changes" comment="Task 1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,38 +44,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Program.executor": "Run",
-    "Maven.demo [clean].executor": "Run",
-    "Maven.demo [install].executor": "Run",
-    "Maven.demo [package].executor": "Run",
-    "Maven.jpa-h2-demo [package].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.BuildingApiRestApplication.executor": "Run",
-    "Spring Boot.SongApi.executor": "Debug",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/mirhabil/IdeaProjects/holberton-tasks/0x00/character-builder",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.configurations.included.in.services": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Program.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.demo [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.demo [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.demo [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.jpa-h2-demo [package].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.BuildingApiRestApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SongApi.executor&quot;: &quot;Debug&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mirhabil/IdeaProjects/holberton-tasks/0x00/character-builder&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/0x00/character-builder" />
@@ -204,15 +195,11 @@
       <workItem from="1760732766366" duration="1543000" />
       <workItem from="1760780609536" duration="9955000" />
       <workItem from="1761335165350" duration="5454000" />
-      <workItem from="1761340821199" duration="4644000" />
-    </task>
-    <task id="LOCAL-00018" summary="Task 1">
-      <option name="closed" value="true" />
-      <created>1760733705071</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1760733705071</updated>
+      <workItem from="1761340821199" duration="4802000" />
+      <workItem from="1761345643738" duration="3000" />
+      <workItem from="1761345650260" duration="2000" />
+      <workItem from="1761345672017" duration="4000" />
+      <workItem from="1761500862393" duration="653000" />
     </task>
     <task id="LOCAL-00019" summary="Task 1">
       <option name="closed" value="true" />
@@ -598,15 +585,23 @@
       <option name="project" value="LOCAL" />
       <updated>1761345421132</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Task 1">
+      <option name="closed" value="true" />
+      <created>1761345487611</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1761345487611</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Task 1" />
     <MESSAGE value="Task 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 2" />
+    <MESSAGE value="Task 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 1" />
   </component>
 </project>
