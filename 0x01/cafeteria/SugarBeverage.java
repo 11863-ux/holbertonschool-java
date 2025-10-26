@@ -6,14 +6,14 @@ public class SugarBeverage extends BeverageDecorator{
     }
 
     @Override
-    List<String> getIngredients() {
+    public List<String> getIngredients() {
         super.getIngredients().add("sugar");
         return decoratedBeverage.getIngredients();
     }
 
 
     @Override
-    double getPrice() {
+    public double getPrice() {
         return super.getPrice()+1.9;
     }
 }

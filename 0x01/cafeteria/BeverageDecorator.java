@@ -8,12 +8,12 @@ public class BeverageDecorator extends Beverage {
         this.decoratedBeverage = decoratedBeverage;
     }
     @Override
-    List<String> getIngredients() {
+    public List<String> getIngredients() {
         return decoratedBeverage.getIngredients();
     }
 
     @Override
-    double getPrice() {
+    public double getPrice() {
         return decoratedBeverage.getPrice();
     }
 }

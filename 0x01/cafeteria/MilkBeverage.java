@@ -6,14 +6,14 @@ public class MilkBeverage extends BeverageDecorator{
     }
 
     @Override
-    List<String> getIngredients() {
+    public List<String> getIngredients() {
         super.getIngredients().add("milk");
         return super.getIngredients();
     }
 
 
     @Override
-    double getPrice() {
+    public double getPrice() {
         return super.getPrice() + 3.2;
     }
 }
