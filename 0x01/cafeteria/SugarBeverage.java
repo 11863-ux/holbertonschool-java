@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class SugarBeverage extends BeverageDecorator{
@@ -6,7 +7,7 @@ public class SugarBeverage extends BeverageDecorator{
     }
 
     @Override
-    public List<String> getIngredients() {
+    public ArrayList<String> getIngredients() {
         super.getIngredients().add("sugar");
         return super.getIngredients();
     }

@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class MilkBeverage extends BeverageDecorator{
@@ -6,7 +7,7 @@ public class MilkBeverage extends BeverageDecorator{
     }
 
     @Override
-    public List<String> getIngredients() {
+    public ArrayList<String> getIngredients() {
         super.getIngredients().add("milk");
         return super.getIngredients();
     }

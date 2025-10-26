@@ -1,8 +1,9 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class CoffeeBeverage extends Beverage {
     @Override
-    public List<String> getIngredients() {
+    public ArrayList<String> getIngredients() {
         return List.of("coffee");
     }
 
