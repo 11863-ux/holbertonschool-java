@@ -3,8 +3,8 @@ import java.util.List;
 
 public class CoffeeBeverage extends Beverage {
     @Override
-    public ArrayList<String> getIngredients() {
-        return List.of("coffee");
+    public List<String> getIngredients() {
+        return new ArrayList<>(List.of("coffee"));
     }
 
     @Override

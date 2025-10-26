@@ -9,7 +9,7 @@ public class BeverageDecorator extends Beverage {
         this.decoratedBeverage = decoratedBeverage;
     }
     @Override
-    public ArrayList<String> getIngredients() {
+    public List<String> getIngredients() {
         return decoratedBeverage.getIngredients();
     }
 

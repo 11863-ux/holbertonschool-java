@@ -7,7 +7,7 @@ public class MilkBeverage extends BeverageDecorator{
     }
 
     @Override
-    public ArrayList<String> getIngredients() {
+    public List<String> getIngredients() {
         super.getIngredients().add("milk");
         return super.getIngredients();
     }
