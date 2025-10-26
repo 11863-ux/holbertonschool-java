@@ -4,8 +4,8 @@ public class SalaryService {
 
     private SalaryCalculatorService calculator = SalaryCalculatorService.getInstance();
 
-    public void calculate(double grossSalary, double discountValue, double salesValue, double commissionPercentage){
-        calculator.calculateNetSalary(grossSalary, discountValue, salesValue, commissionPercentage);
+    public double calculate(double grossSalary, double discountValue, double salesValue, double commissionPercentage){
+        return calculator.calculateNetSalary(grossSalary, discountValue, salesValue, commissionPercentage);
     }
 
     public UUID getUuid(){
