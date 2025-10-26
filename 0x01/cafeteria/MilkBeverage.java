@@ -8,8 +8,9 @@ public class MilkBeverage extends BeverageDecorator{
 
     @Override
     public List<String> getIngredients() {
-        super.getIngredients().add("milk");
-        return super.getIngredients();
+        List<String> ingredients = new ArrayList<>(super.getIngredients());
+        ingredients.add("milk");
+        return ingredients;
     }
 
 
