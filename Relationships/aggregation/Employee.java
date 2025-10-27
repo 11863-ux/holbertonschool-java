@@ -40,6 +40,6 @@ public class Employee {
                 "Name: %s\n" +
                 "District: %s\n" +
                 "City: %s\n" +
-                "Country: %s",getCode(),getName(),getAddress().getCity(),getAddress().getCountry());
+                "Country: %s",getCode(),getName(),getAddress().getDistrict(),getAddress().getCity(),getAddress().getCountry());
     }
 }
