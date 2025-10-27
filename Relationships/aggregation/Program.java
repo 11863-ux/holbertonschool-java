@@ -1,5 +1,3 @@
-package aggregation;
-
 public class Program {
     public static void main(String[] args) {
         Address address = new Address("Pennsylvania Avenue",
