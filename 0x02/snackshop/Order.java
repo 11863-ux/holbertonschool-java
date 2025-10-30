@@ -3,8 +3,8 @@ package snackshop;
 import java.util.HashSet;
 
 public class Order {
-    HashSet<OrderItem> itemsInBox=new HashSet<>();
-    HashSet<OrderItem> itemsOutOfBox=new HashSet<>();
+    private final HashSet<OrderItem> itemsInBox=new HashSet<>();
+    private final HashSet<OrderItem> itemsOutOfBox=new HashSet<>();
 
     public void addItemInBox(OrderItem item){
         itemsInBox.add(item);
@@ -18,13 +18,13 @@ public class Order {
     public String toString() {
         StringBuilder s= new StringBuilder("Out of the box:\n");
         for(OrderItem item:itemsInBox){
-            s.append(String.format("-%s ",item.type.name())).append(item.name).append("\n");
+            s.append(String.format("-%s ",item.getType().name())).append(item.getName()).append("\n");
         }
 
         s.append("In the box:\n");
 
         for(OrderItem item:itemsOutOfBox){
-            s.append(String.format("-%s ",item.type.name())).append(item.name).append("\n");
+            s.append(String.format("-%s ",item.getType().name())).append(item.getName()).append("\n");
         }
 
         return s.toString();
