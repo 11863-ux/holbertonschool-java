@@ -14,15 +14,15 @@ public class Order {
 
     @Override
     public String toString() {
-        StringBuilder s= new StringBuilder("       Out of the Box:\n");
+        StringBuilder s= new StringBuilder("        Out of the Box:\n");
         for(OrderItem item:itemsOutOfBox){
-            s.append(String.format("               - %s ",item.getType().name())).append(item.getName()).append("\n");
+            s.append(String.format("                - %s ",item.getType().name())).append(item.getName()).append("\n");
         }
 
-        s.append("       In the Box:\n");
+        s.append("        In the Box:\n");
 
         for(OrderItem item:itemsInBox){
-            s.append(String.format("               - %s ",item.getType().name())).append(item.getName()).append("\n");
+            s.append(String.format("                - %s ",item.getType().name())).append(item.getName()).append("\n");
         }
 
         return s.toString();
