@@ -11,6 +11,69 @@ public class PrintJob {
     PrintSize printSize;
 
 
+    public void setTotalPages(int totalPages) {
+        this.totalPages = totalPages;
+    }
+
+    public void setColorPages(int colorPages) {
+        this.colorPages = colorPages;
+    }
+
+    public void setDoubleSided(boolean doubleSided) {
+        isDoubleSided = doubleSided;
+    }
+
+    public void setColorDoubleSidedCost(double colorDoubleSidedCost) {
+        this.colorDoubleSidedCost = colorDoubleSidedCost;
+    }
+
+    public void setBwDoubleSidedCost(double bwDoubleSidedCost) {
+        this.bwDoubleSidedCost = bwDoubleSidedCost;
+    }
+
+    public void setColorSingleSidedCost(double colorSingleSidedCost) {
+        this.colorSingleSidedCost = colorSingleSidedCost;
+    }
+
+    public void setBwSingleSidedCost(double bwSingleSidedCost) {
+        this.bwSingleSidedCost = bwSingleSidedCost;
+    }
+
+    public void setPrintSize(PrintSize printSize) {
+        this.printSize = printSize;
+    }
+
+    public int getTotalPages() {
+        return totalPages;
+    }
+
+    public int getColorPages() {
+        return colorPages;
+    }
+
+    public boolean isDoubleSided() {
+        return isDoubleSided;
+    }
+
+    public double getColorDoubleSidedCost() {
+        return colorDoubleSidedCost;
+    }
+
+    public double getBwDoubleSidedCost() {
+        return bwDoubleSidedCost;
+    }
+
+    public double getColorSingleSidedCost() {
+        return colorSingleSidedCost;
+    }
+
+    public double getBwSingleSidedCost() {
+        return bwSingleSidedCost;
+    }
+
+    public PrintSize getPrintSize() {
+        return printSize;
+    }
 
     public double calculateTotal() {
         if (printSize == PrintSize.A2) {
