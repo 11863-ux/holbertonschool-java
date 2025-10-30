@@ -1,5 +1,3 @@
-package print;
-
 public class PrintJob {
     private int totalPages;
     private int colorPages;

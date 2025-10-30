@@ -1,5 +1,3 @@
-package print;
-
 public class Program {
     public static void main(String[] args) {
         PrintJob printJob1 = PrintJobFactory.createPrintJob(PrintSize.A3, 50, 10, true);
