@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99d9b7b8-0ebe-49ec-9926-9f549187a90c" name="Changes" comment="Task 2" />
+    <list default="true" id="99d9b7b8-0ebe-49ec-9926-9f549187a90c" name="Changes" comment="Task 1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -47,6 +50,7 @@
     "Application.Program (1).executor": "Run",
     "Application.Program.executor": "Run",
     "Application.salary.Program.executor": "Run",
+    "Application.snackshop.Program.executor": "Run",
     "Maven.demo [clean].executor": "Run",
     "Maven.demo [install].executor": "Run",
     "Maven.demo [package].executor": "Run",
@@ -108,7 +112,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.salary.Program">
+  <component name="RunManager" selected="Application.snackshop.Program">
     <configuration name="Program (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Program" />
       <module name="holberton-tasks" />
@@ -135,6 +139,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="salary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="snackshop.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="snackshop.Program" />
+      <module name="holberton-tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="snackshop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,6 +209,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.snackshop.Program" />
         <item itemvalue="Application.salary.Program" />
         <item itemvalue="Application.Program (1)" />
         <item itemvalue="Application.Program" />
@@ -221,31 +239,8 @@
       <workItem from="1761345643738" duration="3000" />
       <workItem from="1761345650260" duration="2000" />
       <workItem from="1761345672017" duration="4000" />
-      <workItem from="1761500862393" duration="5939000" />
-    </task>
-    <task id="LOCAL-00034" summary="Task 2">
-      <option name="closed" value="true" />
-      <created>1760991613807</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1760991613807</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Task 2">
-      <option name="closed" value="true" />
-      <created>1760991697657</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1760991697657</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Task 1">
-      <option name="closed" value="true" />
-      <created>1761105657539</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1761105657539</updated>
+      <workItem from="1761500862393" duration="6847000" />
+      <workItem from="1761856698506" duration="3081000" />
     </task>
     <task id="LOCAL-00037" summary="Task 1">
       <option name="closed" value="true" />
@@ -615,15 +610,39 @@
       <option name="project" value="LOCAL" />
       <updated>1761505822991</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="Task 1">
+      <option name="closed" value="true" />
+      <created>1761541234825</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1761541234825</updated>
+    </task>
+    <task id="LOCAL-00084" summary="Task 1">
+      <option name="closed" value="true" />
+      <created>1761541464410</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1761541464410</updated>
+    </task>
+    <task id="LOCAL-00085" summary="Task 1">
+      <option name="closed" value="true" />
+      <created>1761541525841</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1761541525841</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Task 1" />
     <MESSAGE value="Task 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 2" />
+    <MESSAGE value="Task 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 1" />
   </component>
 </project>
