@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99d9b7b8-0ebe-49ec-9926-9f549187a90c" name="Changes" comment="Task 1">
-      <change beforePath="$PROJECT_DIR$/0x02/snackshop/DrinkType.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x02/snackshop/DrinkType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x02/snackshop/FriesSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x02/snackshop/FriesSize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x02/snackshop/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x02/snackshop/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x02/snackshop/OrderAbstractBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x02/snackshop/OrderAbstractBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x02/snackshop/OrderBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x02/snackshop/OrderBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x02/snackshop/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x02/snackshop/OrderItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x02/snackshop/OrderItemType.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x02/snackshop/OrderItemType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x02/snackshop/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x02/snackshop/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x02/snackshop/SnackType.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x02/snackshop/SnackType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x02/snackshop/ToyType.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x02/snackshop/ToyType.java" afterDir="false" />
-    </list>
+    <list default="true" id="99d9b7b8-0ebe-49ec-9926-9f549187a90c" name="Changes" comment="Task 1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -249,39 +238,7 @@
       <workItem from="1761345650260" duration="2000" />
       <workItem from="1761345672017" duration="4000" />
       <workItem from="1761500862393" duration="6847000" />
-      <workItem from="1761856698506" duration="3786000" />
-    </task>
-    <task id="LOCAL-00043" summary="Task 1">
-      <option name="closed" value="true" />
-      <created>1761145150927</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1761145150927</updated>
-    </task>
-    <task id="LOCAL-00044" summary="Task 1">
-      <option name="closed" value="true" />
-      <created>1761145325454</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1761145325454</updated>
-    </task>
-    <task id="LOCAL-00045" summary="Task 1">
-      <option name="closed" value="true" />
-      <created>1761146319480</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1761146319480</updated>
-    </task>
-    <task id="LOCAL-00046" summary="Task 1">
-      <option name="closed" value="true" />
-      <created>1761146578404</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1761146578404</updated>
+      <workItem from="1761856698506" duration="4169000" />
     </task>
     <task id="LOCAL-00047" summary="Task 1">
       <option name="closed" value="true" />
@@ -643,7 +600,39 @@
       <option name="project" value="LOCAL" />
       <updated>1761861785024</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="Task 1">
+      <option name="closed" value="true" />
+      <created>1761861880208</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1761861880208</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Task 1">
+      <option name="closed" value="true" />
+      <created>1761861935374</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1761861935374</updated>
+    </task>
+    <task id="LOCAL-00094" summary="Task 1">
+      <option name="closed" value="true" />
+      <created>1761862056391</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1761862056391</updated>
+    </task>
+    <task id="LOCAL-00095" summary="Task 1">
+      <option name="closed" value="true" />
+      <created>1761862145918</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1761862145918</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
