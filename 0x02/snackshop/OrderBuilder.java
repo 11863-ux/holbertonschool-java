@@ -23,7 +23,7 @@ public class OrderBuilder extends OrderAbstractBuilder{
 
     @Override
     void setDrink(DrinkType type) {
-        order.addItemInBox(new OrderItem(OrderItemType.DRINK, type.toString()));
+        order.addItemOutOfBox(new OrderItem(OrderItemType.DRINK, type.toString()));
     }
 
     public Order build(){
