@@ -1,5 +1,3 @@
-package snackshop;
-
 public class OrderItem {
     OrderItemType type;
     String name;
