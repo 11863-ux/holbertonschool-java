@@ -1,5 +1,3 @@
-package snackshop;
-
 public class Program {
     public static void main(String[] args) {
         OrderBuilder builder1 = new OrderBuilder();

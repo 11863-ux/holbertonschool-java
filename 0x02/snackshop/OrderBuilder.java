@@ -1,5 +1,3 @@
-package snackshop;
-
 public class OrderBuilder extends OrderAbstractBuilder{
 
     private Order order;

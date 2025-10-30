@@ -1,5 +1,3 @@
-package snackshop;
-
 public abstract class OrderAbstractBuilder {
     abstract void setSnack(SnackType type);
     abstract void setFries(FriesSize size);

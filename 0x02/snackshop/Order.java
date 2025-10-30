@@ -1,5 +1,3 @@
-package snackshop;
-
 import java.util.HashSet;
 
 public class Order {
