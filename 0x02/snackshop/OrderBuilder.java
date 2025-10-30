@@ -2,7 +2,7 @@ package snackshop;
 
 public class OrderBuilder extends OrderAbstractBuilder{
 
-    private final Order order;
+    private Order order;
 
     public OrderBuilder() {
         this.order = new Order();
