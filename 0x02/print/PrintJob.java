@@ -3,11 +3,11 @@ package print;
 public class PrintJob {
     private int totalPages;
     private int colorPages;
-    boolean isDoubleSided;
-    double colorDoubleSidedCost;
-    double bwDoubleSidedCost;
-    double colorSingleSidedCost;
-    double bwSingleSidedCost;
+    private boolean isDoubleSided;
+    private double colorDoubleSidedCost;
+    private double bwDoubleSidedCost;
+    private double colorSingleSidedCost;
+    private double bwSingleSidedCost;
     PrintSize printSize;
 
 
