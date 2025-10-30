@@ -1,8 +1,8 @@
 package print;
 
 public class PrintJob {
-    int totalPages;
-    int colorPages;
+    private int totalPages;
+    private int colorPages;
     boolean isDoubleSided;
     double colorDoubleSidedCost;
     double bwDoubleSidedCost;
