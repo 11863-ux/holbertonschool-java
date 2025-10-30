@@ -3,8 +3,8 @@ package snackshop;
 import java.util.HashSet;
 
 public class Order {
-    private final HashSet<OrderItem> itemsInBox=new HashSet<>();
-    private final HashSet<OrderItem> itemsOutOfBox=new HashSet<>();
+    private HashSet<OrderItem> itemsInBox=new HashSet<>();
+    private HashSet<OrderItem> itemsOutOfBox=new HashSet<>();
 
     public void addItemInBox(OrderItem item){
         itemsInBox.add(item);
