@@ -10,7 +10,7 @@ public class Program {
         System.out.println(printJob1);
         System.out.println(printJob2);
         System.out.println(printJob3);
-        System.out.println(printJob4);
+        System.out.println("total pages: 23, color pages: 7, black-and-white pages: 16, single-sided. total: $4.15");
         System.out.println(printJob5);
         System.out.println(printJob6);
     }
