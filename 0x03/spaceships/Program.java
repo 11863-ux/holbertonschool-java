@@ -11,7 +11,7 @@ public class Program {
         Spacecraft armoredLaserSpacecraft = new LaserDecorator(new ArmorDecorator(new Spacecraft(60, 20)));
         System.out.println(armoredLaserSpacecraft);
 
-        Spacecraft armoredNanoBotsSpacecraft = new NanoBotsDecorator(new ArmorDecorator(new Spacecraft(100, 100)));
+        Spacecraft armoredNanoBotsSpacecraft = new NanoBotsDecorator(new ArmorDecorator(new Spacecraft(60, 35)));
         System.out.println(armoredNanoBotsSpacecraft);
 
         Spacecraft laserNanoBotsSpacecraft = new NanoBotsDecorator(new LaserDecorator(new Spacecraft(75, 30)));

@@ -3,7 +3,7 @@ package spaceships;
 public class SpacecraftDecorator extends Spacecraft{
     Spacecraft spacecraftDecorated;
     public SpacecraftDecorator(Spacecraft spacecraft){
-        super(spacecraft.getHealth(), spacecraft.health);
+        super(spacecraft.getHealth(), spacecraft.getAttack());
         this.spacecraftDecorated = spacecraft;
     }
 
