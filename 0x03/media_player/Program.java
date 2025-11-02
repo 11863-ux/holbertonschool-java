@@ -11,5 +11,6 @@ public class Program {
         System.out.println();
 
         audioPlayer.play(MediaType.VLC, "Moon Knight S01E01.vlc");
+        System.out.println();
     }
 }
