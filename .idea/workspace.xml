@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99d9b7b8-0ebe-49ec-9926-9f549187a90c" name="Changes" comment="Task 1">
-      <change beforePath="$PROJECT_DIR$/0x03/spaceships/ArmorDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x03/spaceships/ArmorDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x03/spaceships/ExtraCannonDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x03/spaceships/ExtraCannonDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x03/spaceships/LaserDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x03/spaceships/LaserDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x03/spaceships/NanoBotsDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x03/spaceships/NanoBotsDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x03/spaceships/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x03/spaceships/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x03/spaceships/Spacecraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x03/spaceships/Spacecraft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x03/spaceships/SpacecraftDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x03/spaceships/SpacecraftDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,15 +243,7 @@
       <workItem from="1761856698506" duration="8186000" />
       <workItem from="1761868869283" duration="141000" />
       <workItem from="1761869013248" duration="13000" />
-      <workItem from="1762062594585" duration="2736000" />
-    </task>
-    <task id="LOCAL-00060" summary="Task 2">
-      <option name="closed" value="true" />
-      <created>1761344685971</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1761344685971</updated>
+      <workItem from="1762062594585" duration="5424000" />
     </task>
     <task id="LOCAL-00061" summary="Task 2">
       <option name="closed" value="true" />
@@ -643,7 +629,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762078707605</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="Task 1">
+      <option name="closed" value="true" />
+      <created>1762078834691</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1762078834691</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
