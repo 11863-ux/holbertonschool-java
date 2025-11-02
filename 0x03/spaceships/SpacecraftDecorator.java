@@ -1,10 +1,10 @@
 package spaceships;
 
 public class SpacecraftDecorator extends Spacecraft{
-    private Spacecraft spacecraft;
+    Spacecraft spacecraftDecorated;
     public SpacecraftDecorator(Spacecraft spacecraft){
         super(spacecraft.getHealth(), spacecraft.health);
-        this.spacecraft = spacecraft;
+        this.spacecraftDecorated = spacecraft;
     }
 
     @Override
