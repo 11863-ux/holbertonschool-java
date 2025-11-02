@@ -1,5 +1,3 @@
-package spaceships;
-
 public class SpacecraftDecorator extends Spacecraft{
     Spacecraft spacecraftDecorated;
     public SpacecraftDecorator(Spacecraft spacecraft){

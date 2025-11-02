@@ -1,5 +1,3 @@
-package spaceships;
-
 public class ArmorDecorator extends SpacecraftDecorator{
     public ArmorDecorator(Spacecraft spacecraft) {
         super(spacecraft);

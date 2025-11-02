@@ -1,5 +1,3 @@
-package spaceships;
-
 public class Program {
     public static void main(String[] args) {
         Spacecraft spacecraft = new Spacecraft(100, 50);
