@@ -12,7 +12,7 @@ public class MediaPlayerAdapter implements MediaPlayer {
         }
     }
 
-    MediaPlayerAdapter(MediaType mediaType) {
+    public MediaPlayerAdapter(MediaType mediaType) {
         if(mediaType != MediaType.MP3){
             mediaPlayer = new VideoMediaPlayer();
         }
