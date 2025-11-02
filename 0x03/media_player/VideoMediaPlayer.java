@@ -1,5 +1,3 @@
-package media_player;
-
 public class VideoMediaPlayer implements AdvancedMediaPlayer {
     @Override
     public void playVLC(String fileName) {

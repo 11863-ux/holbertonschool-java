@@ -1,5 +1,3 @@
-package media_player;
-
 public class MediaPlayerAdapter implements MediaPlayer {
     AdvancedMediaPlayer  mediaPlayer;
     @Override

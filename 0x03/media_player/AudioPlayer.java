@@ -1,5 +1,3 @@
-package media_player;
-
 public class AudioPlayer implements MediaPlayer {
     @Override
     public void play(MediaType mediaType,String fileName) {

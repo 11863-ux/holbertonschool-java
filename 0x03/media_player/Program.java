@@ -1,5 +1,3 @@
-package media_player;
-
 public class Program {
     public static void main(String[] args) {
         AudioPlayer audioPlayer = new AudioPlayer();
