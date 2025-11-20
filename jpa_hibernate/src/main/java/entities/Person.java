@@ -20,6 +20,6 @@ public class Person {
     @Column
     String birthdate;
 
-    @OneToMany
+    @OneToMany(mappedBy = "person")
     List<Product> products;
 }
