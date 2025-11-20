@@ -1,5 +1,8 @@
 package entities;
 
+import javax.persistence.Table;
+
+@Table
 public class Person {
     int id;
     String name;
