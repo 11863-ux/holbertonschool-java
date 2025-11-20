@@ -1,6 +1,7 @@
 package entities;
 
 import javax.persistence.Column;
+import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 
 @Table
@@ -15,4 +16,7 @@ public class Product {
     int price;
     @Column
     String status;
+
+    @ManyToMany
+    Person person;
 }
