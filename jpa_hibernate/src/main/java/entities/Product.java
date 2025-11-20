@@ -1,11 +1,11 @@
 package entities;
 
-import javax.persistence.Column;
-import javax.persistence.ManyToMany;
-import javax.persistence.Table;
+import javax.persistence.*;
 
-@Table
+@Entity
 public class Product {
+    @Id
+    @GeneratedValue
     @Column
     int id;
     @Column
@@ -17,6 +17,6 @@ public class Product {
     @Column
     String status;
 
-    @ManyToMany
+    @ManyToOne
     Person person;
 }

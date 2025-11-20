@@ -1,12 +1,12 @@
 package entities;
 
-import javax.persistence.Column;
-import javax.persistence.OneToMany;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.util.List;
 
-@Table
+@Entity
 public class Person {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column
     int id;
     @Column
