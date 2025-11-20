@@ -12,7 +12,7 @@
     <artifactId>admin-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>jpa_hibernate</name>
-    <description>jpa_hibernate</description>
+    <description>Admin Project for Customer and Product registrations using Hibernate and JPA</description>
     <url/>
     <licenses>
         <license/>
