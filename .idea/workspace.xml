@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99d9b7b8-0ebe-49ec-9926-9f549187a90c" name="Changes" comment="Task 1">
-      <change beforePath="$PROJECT_DIR$/jpa_hibernate/src/main/java/entities/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa_hibernate/src/main/java/entities/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa_hibernate/src/main/java/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa_hibernate/src/main/java/entities/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,6 +161,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ApiRestCalculatorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="calculator" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.calculator.ApiRestCalculatorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApiRestUserControllerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="user" />
@@ -252,23 +261,8 @@
       <workItem from="1761868869283" duration="141000" />
       <workItem from="1761869013248" duration="13000" />
       <workItem from="1762062594585" duration="6045000" />
-      <workItem from="1763667300960" duration="2538000" />
-    </task>
-    <task id="LOCAL-00078" summary="Task 2">
-      <option name="closed" value="true" />
-      <created>1761504098801</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1761504098801</updated>
-    </task>
-    <task id="LOCAL-00079" summary="Task 2">
-      <option name="closed" value="true" />
-      <created>1761504363972</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1761504363972</updated>
+      <workItem from="1763667300960" duration="3281000" />
+      <workItem from="1764477732662" duration="312000" />
     </task>
     <task id="LOCAL-00080" summary="Task 2">
       <option name="closed" value="true" />
@@ -646,7 +640,23 @@
       <option name="project" value="LOCAL" />
       <updated>1763669531703</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="Task 1">
+      <option name="closed" value="true" />
+      <created>1763673032700</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1763673032700</updated>
+    </task>
+    <task id="LOCAL-00128" summary="Task 1">
+      <option name="closed" value="true" />
+      <created>1763673119120</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1763673119120</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
