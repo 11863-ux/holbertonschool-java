@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99d9b7b8-0ebe-49ec-9926-9f549187a90c" name="Changes" comment="Task 1" />
+    <list default="true" id="99d9b7b8-0ebe-49ec-9926-9f549187a90c" name="Changes" comment="Task 1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x07/api-rest-calculator/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/0x07/api-rest-calculator/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x07/api-rest-calculator/src/test/java/com/example/calculator/controller/CalculatorControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x07/api-rest-calculator/src/test/java/com/example/calculator/controller/CalculatorControllerTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,6 +98,7 @@
       <recent name="$PROJECT_DIR$/0x04/JPA+H2_database/com" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.calculator" />
       <recent name="com.example.user" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -265,23 +270,7 @@
       <workItem from="1761869013248" duration="13000" />
       <workItem from="1762062594585" duration="6045000" />
       <workItem from="1763667300960" duration="3281000" />
-      <workItem from="1764477732662" duration="953000" />
-    </task>
-    <task id="LOCAL-00083" summary="Task 1">
-      <option name="closed" value="true" />
-      <created>1761541234825</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1761541234825</updated>
-    </task>
-    <task id="LOCAL-00084" summary="Task 1">
-      <option name="closed" value="true" />
-      <created>1761541464410</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1761541464410</updated>
+      <workItem from="1764477732662" duration="1740000" />
     </task>
     <task id="LOCAL-00085" summary="Task 1">
       <option name="closed" value="true" />
@@ -659,7 +648,23 @@
       <option name="project" value="LOCAL" />
       <updated>1764478635321</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="Task 1">
+      <option name="closed" value="true" />
+      <created>1764478748732</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1764478748732</updated>
+    </task>
+    <task id="LOCAL-00133" summary="Task 1">
+      <option name="closed" value="true" />
+      <created>1764478796733</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1764478796733</updated>
+    </task>
+    <option name="localTasksCounter" value="134" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
