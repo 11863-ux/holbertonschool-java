@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99d9b7b8-0ebe-49ec-9926-9f549187a90c" name="Changes" comment="Task 1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x07/api-rest-calculator/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/0x07/api-rest-calculator/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x07/api-rest-calculator/src/test/java/com/example/calculator/controller/CalculatorControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x07/api-rest-calculator/src/test/java/com/example/calculator/controller/CalculatorControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x07/api-rest-calculator/src/main/java/com/example/calculator/model/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x07/api-rest-calculator/src/main/java/com/example/calculator/model/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -270,23 +268,7 @@
       <workItem from="1761869013248" duration="13000" />
       <workItem from="1762062594585" duration="6045000" />
       <workItem from="1763667300960" duration="3281000" />
-      <workItem from="1764477732662" duration="1740000" />
-    </task>
-    <task id="LOCAL-00085" summary="Task 1">
-      <option name="closed" value="true" />
-      <created>1761541525841</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1761541525841</updated>
-    </task>
-    <task id="LOCAL-00086" summary="Task 1">
-      <option name="closed" value="true" />
-      <created>1761861238555</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1761861238555</updated>
+      <workItem from="1764477732662" duration="2626000" />
     </task>
     <task id="LOCAL-00087" summary="Task 1">
       <option name="closed" value="true" />
@@ -664,7 +646,23 @@
       <option name="project" value="LOCAL" />
       <updated>1764478796733</updated>
     </task>
-    <option name="localTasksCounter" value="134" />
+    <task id="LOCAL-00134" summary="Task 1">
+      <option name="closed" value="true" />
+      <created>1764480572234</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1764480572234</updated>
+    </task>
+    <task id="LOCAL-00135" summary="Task 1">
+      <option name="closed" value="true" />
+      <created>1764480738664</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1764480738664</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
