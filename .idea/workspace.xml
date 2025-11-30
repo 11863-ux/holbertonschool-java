@@ -8,6 +8,17 @@
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-rest-calculator/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-rest-calculator/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-rest-calculator/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-rest-calculator/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-rest-calculator/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-rest-calculator/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-rest-calculator/src/main/java/com/example/calculator/ApiRestCalculatorApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-rest-calculator/src/main/java/com/example/calculator/model/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-rest-calculator/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-rest-calculator/src/test/java/com/example/calculator/ApiRestCalculatorApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-rest-calculator/src/test/java/com/example/calculator/model/CalculatorTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,6 +235,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringBoot1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring_boot_1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="example.demo.SpringBoot1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.snackshop.Program" />
@@ -262,15 +280,7 @@
       <workItem from="1761869013248" duration="13000" />
       <workItem from="1762062594585" duration="6045000" />
       <workItem from="1763667300960" duration="3281000" />
-      <workItem from="1764477732662" duration="312000" />
-    </task>
-    <task id="LOCAL-00080" summary="Task 2">
-      <option name="closed" value="true" />
-      <created>1761504561626</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1761504561626</updated>
+      <workItem from="1764477732662" duration="629000" />
     </task>
     <task id="LOCAL-00081" summary="Task 2">
       <option name="closed" value="true" />
@@ -656,7 +666,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763673119120</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="Task 1">
+      <option name="closed" value="true" />
+      <created>1764478071662</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1764478071662</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
